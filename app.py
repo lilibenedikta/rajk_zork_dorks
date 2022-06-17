@@ -2,6 +2,7 @@ from dash import Dash, dcc, html
 from dash.dependencies import Input, Output, State
 
 app = Dash(__name__)
+server = app.server
 
 colors = {
     'background': '#000000',
