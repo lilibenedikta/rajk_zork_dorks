@@ -1,37 +1,34 @@
-#!/usr/bin/env python
-# coding: utf-8
+# Run this app with `python app.py` and
+# visit http://127.0.0.1:8050/ in your web browser.
 
-#IMPORT asdasd
-
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
-import dash_table
-from dash.dependencies import Input, Output, State
-
-import chart_studio.plotly as py
-import plotly.graph_objs as go
-
+from dash import Dash, html, dcc
+import plotly.express as px
 import pandas as pd
-import numpy as np
 
-import datetime
+app = Dash(__name__)
 
+# assume you have a "long-form" data frame
+# see https://plotly.com/python/px-arguments/ for more options
+df = pd.DataFrame({
+    "Fruit": ["Apples", "Oranges", "Bananas", "Apples", "Oranges", "Bananas"],
+    "Amount": [4, 1, 2, 2, 4, 5],
+    "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal"]
+})
 
+fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
 
-#LAYOUT
+app.layout = html.Div(children=[
+    html.H1(children='Hello Dash'),
 
-# external CSS stylesheets
-external_stylesheets = [
-    'https://codepen.io/chriddyp/pen/bWLwgP.css',
-    {
-        'href': 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
-        'rel': 'stylesheet',
-        'integrity': 'sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO',
-        'crossorigin': 'anonymous'
-    }
-]
+    html.Div(children='''
+        Dash: A web application framework for your data.
+    '''),
 
-app = dash.Dash(__name__, external_stylesheets = external_stylesheets)
+    dcc.Graph(
+        id='example-graph',
+        figure=fig
+    )
+])
 
-app.title = 'Rajk Zork Kaland'
+if __name__ == '__main__':
+    app.run_server(debug=True)
