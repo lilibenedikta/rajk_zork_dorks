@@ -39,7 +39,7 @@ colors = {"background": "#000000", "text": "#39FF14"}
 
 
 @app.callback(
-    [Output("situation", "children"), Output("option_selector", "options")],
+    [Output("situation", "children"), Output("option_selector", "options"),Output("submit_gomb", "children") ],
     Input("submit_gomb", "n_clicks"),
     [
         State("option_selector", "value"),
@@ -51,9 +51,13 @@ def continue_game(n_clicks, selector_value, session_id):
         sesh.decide(selector_value)
     next_text = node_data.loc[sesh.current_state, "TEXT_N"]
     next_radio = edge_data.loc[sesh.current_state].apply(
-        lambda r: dict(label=r["TEXT_E"], value=r["EDGE_ID"]), axis=1
+        lambda r: dict(label=r["TEXT_E"], value=r["OPTION_NUM"]), axis=1
     )
-    return next_text, next_radio
+    button_text = "Submit"
+    if sesh.current_state == "T_I_121" | sesh.current_state == "T_I_122":
+        button_text = "Finish"
+
+    return next_text, next_radio, button_text
 
 if __name__ == "__main__":
     app.run_server(debug=True)
