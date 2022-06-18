@@ -47,8 +47,7 @@ app.layout = html.Div(
     ]
 )
 
-intro = "Nagyokat pislogsz, fáj a fejed. Körbenézel. \n Ismerős minden, de valahogyan egy kicsit, egy kicsit más. \n"
-
+intro = "Eltöprengesz, mi történhetett. Mit csinálsz?"
 
 @app.callback(
     [Output("paragraph-one", "children"), Output("paragraph-two", "children")],
@@ -67,7 +66,6 @@ def update_output(_, text_input_value, current_text_of_para_2, session_id):
     next_para_2 = session_state.proc_input(text_input_value)
 
     return next_para_1, next_para_2
-
 
 if __name__ == "__main__":
     app.run_server(debug=True)
