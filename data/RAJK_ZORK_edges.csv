@@ -1,0 +1,7 @@
+FROM,EDGE_ID,TO,TEXT_E,ONZO_PLEASER,NYUSZI_BIKA,SZUTYKOS_GURU,NAPLOPO_HAJCSAR
+T_I_1,1,T_I_1_1,"""Kutakodsz a dohányod után a zsebeidben.""",0,0,0,0
+T_I_1,2,T_I_1_2,"""Megnézed az időt a telefonodon.""",0,0,0,0
+T_I_1_1,1,T_I_1_1_1,"""Najó, elszívok egy cigit.""",0,0,0,0
+T_I_1_1,2,T_I_1_1_2,"""Bepánikolok, és felrohanok az udvarra.""",0,0,0,0
+T_I_1_2,1,T_I_1_2_1,"""Najó, elszívok egy cigit.""",0,0,0,0
+T_I_1_2,2,T_I_1_2_2,"""Bepánikolok, és felrohanok az udvarra.""",0,0,0,0
