@@ -9,10 +9,16 @@ import dash_bootstrap_components as dbc
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, "style.css"])
 server = app.server
 
+option_to_edge_dict = {"option text": "edge_id"}
+from ... import game_graph, edge_df
 
 class SessionState:
     def __init__(self) -> None:
         self.n_potions = 0
+        self.position = "1"
+
+    def decide(self, option_num):
+        self.position = edge_df.loc[(self.position, option_num), "to"]
 
     def proc_input(self, in_str):
 
