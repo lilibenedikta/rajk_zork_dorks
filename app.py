@@ -6,73 +6,58 @@ from dash.dependencies import Input, Output, State
 from flask import send_from_directory
 import dash_bootstrap_components as dbc
 
-from session_state import SessionState
+from session_state import SessionState 
 import pandas as pd
 
 edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index("FROM")
 node_data = pd.read_csv("data/RAJK_ZORK_nodes.csv").set_index("NODE_ID")
+
 state = "T_I_1"
-
-app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, "style.css"],prevent_initial_callbacks=True)
-server = app.server
-
-option_to_edge_dict = {"option text": "edge_id"}
-#from ... import game_graph, edge_df
 
 STATES = defaultdict(SessionState)
 
+
+app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, "style.css"])
+server = app.server
+
+app.layout = html.Div(
+    children=[
+        html.Link(href="/assets/style.css", rel="stylesheet"),
+        dcc.Dropdown(["A", "B"], value="A", id="session-id"),
+        dcc.Markdown(id="situation", className="good-text"),
+        dcc.RadioItems(id="option_selector", className="good-text", inline=False),
+        dbc.Button("Submit", id="submit_gomb", n_clicks=0),
+    ]
+)
 
 @app.server.route("/assets/<path:path>")
 def static_file(path):
     static_folder = os.path.join(os.getcwd(), "assets")
     return send_from_directory(static_folder, path)
 
-
 colors = {"background": "#000000", "text": "#39FF14"}
-
-app.layout = html.Div(
-    [
-        html.Link(href="/assets/style.css", rel="stylesheet"),
-        dcc.Dropdown(["A", "B"], value="A", id="session-id"),
-        html.P(id="paragraph-one", className="good-text"),
-        html.P(id="paragraph-two", className="good-text"),
-        dbc.Button("Submit", id="textarea-state-example-button", n_clicks=0),
-        dcc.Input(
-            placeholder="Enter a value...", type="text", id="text-input-small", value=""
-        ),
-        # dcc.Dropdown(["1", "2", "3"], "Choose", id="text-input-small"),
-    ]
-)
-
-intro = "Eltöprengesz, mi történhetett. Mit csinálsz?"
 
 
 @app.callback(
-    [Output("paragraph-one", "children"), Output("paragraph-two", "children")],
-    Input("textarea-state-example-button", "n_clicks"),
+    [Output("situation", "children"), Output("option_selector", "options"),Output("submit_gomb", "children") ],
+    Input("submit_gomb", "n_clicks"),
     [
-        State("text-input-small", "value"),
-        State("paragraph-two", "children"),
+        State("option_selector", "value"),
         State("session-id", "value"),
-    ],
-)
-def update_output(_, text_input_value, current_text_of_para_2, session_id):
+    ],)
+def continue_game(n_clicks, selector_value, session_id):
+    sesh = STATES[session_id]
+    if n_clicks:
+        sesh.decide(selector_value)
+    next_text = node_data.loc[sesh.current_state, "TEXT_N"]
+    next_radio = edge_data.loc[sesh.current_state].apply(
+        lambda r: dict(label=r["TEXT_E"], value=r["OPTION_NUM"]), axis=1
+    )
+    button_text = "Submit"
+    if sesh.current_state == "T_I_121" | sesh.current_state == "T_I_122":
+        button_text = "Finish"
 
-    session_state = STATES[session_id]
-
-    next_para_1 = [
-        "Paragraph 2 was",
-        html.Br(),
-        current_text_of_para_2,
-        html.Br(),
-        "And you entered",
-        html.Br(),
-        text_input_value,
-    ]
-    next_para_2 = session_state.proc_input(text_input_value)
-
-    return next_para_1, next_para_2
-
+    return next_text, next_radio, button_text
 
 if __name__ == "__main__":
     app.run_server(debug=True)
