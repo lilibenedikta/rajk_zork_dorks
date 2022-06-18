@@ -1,11 +1,48 @@
 NODE_ID,TEXT_N
-T_I_1,"""Nagyokat pislogsz, fáj a fejed. Körbenézel. \
-        Ismerős minden, de valahogyan egy kicsit, egy kicsit más.\
-        Mit keres a cintányér a kanapén melletted. Miért hamus a bal kezed. \
-        Azt már ébredéskor érezted, hogy ragad a mellkasod, az eldobált sörösdobozok számából ítélve\
-        sajnos ez több dolog is lehet. Nem segít, hogy az elmúlt 24 órából nem emlékszel semmire.\
-        Eltöprengesz, mi történhetett. Mit csinálsz?"""
-T_I_1_1,"""A zsebedben megtalálod a telefonodat, és meglátod, hogy már délután fél 3 van. \
-    Lekésted a közös indulást."""
-T_I_1_2,"""Meglátod, hogy már délután fél 3 van. \
-    Lekésted a közös indulást."""
+T_I_1,"### Nagyokat pislogsz, fáj a fejed. Körbenézel.  
+
+### Ismerős minden, de valahogyan egy kicsit, egy kicsit más.  Mit keres a cintányér a kanapén melletted. Miért hamus a bal kezed. 
+
+### Azt már ébredéskor érezted, hogy ragad a mellkasod, az eldobált sörösdobozok számából ítélve sajnos ez több dolog is lehet.  
+
+### Nem segít, hogy az elmúlt 24 órából nem emlékszel semmire.  Eltöprengesz, mi történhetett. 
+
+### Mit csinálsz?"
+T_I_11,"### Huhh, csak leönthetted magad sörrel. Azért still szar. Meg mostmár a kezed is ragad, kicsit csöpög is..
+
+### Kezd kicsit kitisztulni a fejed...
+
+### Mit csinálsz?"""
+T_I_12,"### Szokásos zsebedből érzésre kihúzod a telód, 4:14 perc van.
+
+### Az baj, gondolod magadban. 15 óra és 45 perc van B-dayig, és neked még nincs kész az absztraktod.
+
+### No fene. Fel kéne érni az arborétumba a laptopodhoz.
+
+### Most látod, hogy mindjárt lemerül a telód.
+
+### Mit csinálsz?"
+T_I_111,"### Az asztalon talált szűrőt megtarhálod, már be is vettél egyet a szádba.
+
+### A jobb kezeddel kutakodsz a zsebeidben, de a dohányodat nem találod.
+
+### A zsebeid tartalma:
+
+### A telefonod.
+
+###  Egy szem rágógumi.
+
+### A gyulád.
+
+### Egy papír valami írással rajta, de a sörös kezed miatt ez olvashatatlan.
+
+### Bosszúsan nem dohányzol most. Mondjuk beltéren is vagy, lehet nem kéne.
+
+### Elszívtad a cigit. Mi a következő lépés?
+"
+T_I_121,"### A játéknak vége. 
+
+### Kizáródtál."
+T_I_122,"### Hiába nyugodtál meg, az időbeosztásod szar volt. A játéknak vége. 
+
+### Kizáródtál."
