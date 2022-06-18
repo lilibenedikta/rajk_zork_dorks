@@ -24,7 +24,7 @@ app.layout = html.Div(
     children=[
         html.Link(href="/assets/style.css", rel="stylesheet"),
         dcc.Dropdown(["A", "B"], value="A", id="session-id"),
-        html.H4(id="situation", className="good-text"),
+        dcc.Markdown(id="situation", className="good-text"),
         dcc.RadioItems(id="option_selector", className="good-text", inline=False),
         dbc.Button("Submit", id="submit_gomb", n_clicks=0),
     ]
