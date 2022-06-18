@@ -6,7 +6,8 @@ import pandas as pd
 
 edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index("FROM")
 node_data = pd.read_csv("data/RAJK_ZORK_nodes.csv").set_index("NODE_ID")
-state = "T_I_1"
+starting_state = "T_I_1"
+state=starting_state
 
 app = Dash(__name__, prevent_initial_callbacks=True)
 
@@ -15,15 +16,30 @@ app.layout = html.Div(
         html.Button("start", id="start"),
         html.H4(id="situation"),
         dcc.RadioItems(id="option_selector"),
+        html.P(id="next_choice"),
+        html.Button("submit", id="submit"),
+        html.H4(id="situation_2"),
+        dcc.RadioItems(id="option_selector_2"),
     ]
 )
 
 
+
 @app.callback(
-    [Output("situation", "children"), Output("option_selector", "options")],
+    [Output("situation", "children"), Output("option_selector", "options"), Output("next_choice", "children")],
     Input("start", "n_clicks"),
 )
 def start_game(n_clicks):
+    if n_clicks:
+        return node_data.loc[state, "TEXT_N"], edge_data.loc[state].apply(
+            lambda r: dict(label=r["TEXT_E"], value=r["EDGE_ID"]), axis=1
+        ), 
+
+@app.callback(
+    [Output("situation_2", "children"), Output("option_selector_2", "options")],
+    Input("submit", "n_clicks"),
+)
+def continue_game(n_clicks):
     if n_clicks:
         return node_data.loc[state, "TEXT_N"], edge_data.loc[state].apply(
             lambda r: dict(label=r["TEXT_E"], value=r["EDGE_ID"]), axis=1

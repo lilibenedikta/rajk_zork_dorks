@@ -6,28 +6,18 @@ from dash.dependencies import Input, Output, State
 from flask import send_from_directory
 import dash_bootstrap_components as dbc
 
-app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, "style.css"])
+from session_state import SessionState
+import pandas as pd
+
+edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index("FROM")
+node_data = pd.read_csv("data/RAJK_ZORK_nodes.csv").set_index("NODE_ID")
+state = "T_I_1"
+
+app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, "style.css"],prevent_initial_callbacks=True)
 server = app.server
 
 option_to_edge_dict = {"option text": "edge_id"}
-from ... import game_graph, edge_df
-
-
-class SessionState:
-    def __init__(self) -> None:
-        self.n_potions = 0
-        self.position = "1"
-
-    def decide(self, option_num):
-        self.position = edge_df.loc[(self.position, option_num), "to"]
-
-    def proc_input(self, in_str):
-
-        if in_str == "Gimme potion":
-            self.n_potions += 1
-
-        return f"You have {self.n_potions} potions"
-
+#from ... import game_graph, edge_df
 
 STATES = defaultdict(SessionState)
 
