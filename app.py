@@ -9,10 +9,17 @@ import dash_bootstrap_components as dbc
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, "style.css"])
 server = app.server
 
+option_to_edge_dict = {"option text": "edge_id"}
+from ... import game_graph, edge_df
+
 
 class SessionState:
     def __init__(self) -> None:
         self.n_potions = 0
+        self.position = "1"
+
+    def decide(self, option_num):
+        self.position = edge_df.loc[(self.position, option_num), "to"]
 
     def proc_input(self, in_str):
 
@@ -49,6 +56,7 @@ app.layout = html.Div(
 
 intro = "Eltöprengesz, mi történhetett. Mit csinálsz?"
 
+
 @app.callback(
     [Output("paragraph-one", "children"), Output("paragraph-two", "children")],
     Input("textarea-state-example-button", "n_clicks"),
@@ -62,10 +70,19 @@ def update_output(_, text_input_value, current_text_of_para_2, session_id):
 
     session_state = STATES[session_id]
 
-    next_para_1 = ["Paragraph 2 was", html.Br(), current_text_of_para_2, html.Br(), "And you entered", html.Br(), text_input_value]
+    next_para_1 = [
+        "Paragraph 2 was",
+        html.Br(),
+        current_text_of_para_2,
+        html.Br(),
+        "And you entered",
+        html.Br(),
+        text_input_value,
+    ]
     next_para_2 = session_state.proc_input(text_input_value)
 
     return next_para_1, next_para_2
+
 
 if __name__ == "__main__":
     app.run_server(debug=True)

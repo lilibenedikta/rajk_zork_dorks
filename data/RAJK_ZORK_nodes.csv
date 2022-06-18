@@ -1,0 +1,11 @@
+NODE_ID,TEXT_N
+T_I_1,"""Nagyokat pislogsz, fáj a fejed. Körbenézel. \
+        Ismerős minden, de valahogyan egy kicsit, egy kicsit más.\
+        Mit keres a cintányér a kanapén melletted. Miért hamus a bal kezed. \
+        Azt már ébredéskor érezted, hogy ragad a mellkasod, az eldobált sörösdobozok számából ítélve\
+        sajnos ez több dolog is lehet. Nem segít, hogy az elmúlt 24 órából nem emlékszel semmire.\
+        Eltöprengesz, mi történhetett. Mit csinálsz?"""
+T_I_1_1,"""A zsebedben megtalálod a telefonodat, és meglátod, hogy már délután fél 3 van. \
+    Lekésted a közös indulást."""
+T_I_1_2,"""Meglátod, hogy már délután fél 3 van. \
+    Lekésted a közös indulást."""
