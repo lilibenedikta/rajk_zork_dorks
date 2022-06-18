@@ -29,18 +29,17 @@ app.layout = html.Div(
     ]
 )
 
-intro = "Nagyokat pislogsz, fáj a fejed. Körbenézel. \n Ismerős minden, de valahogyan egy kicsit, egy kicsit más. \n"
-
+intro = "Eltöprengesz, mi történhetett. Mit csinálsz?"
 
 @app.callback(
     [Output("paragraph-one", "children"), Output("paragraph-two", "children")],
     Input("textarea-state-example-button", "n_clicks"),
     [State("text-input-small", "value"), State("paragraph-two", "children")],
 )
-def update_output(n_clicks, value, last_para):
+def update_output(n_clicks, value, last_para_2):
     if n_clicks > 0:
-        return f"{last_para} and you chose {value}", "You have entered: \n{}".format(value)
-    return intro, last_para
+        return last_para_2, "Ezt választottad: \n{}".format(value)
+    return intro, last_para_2
 
 
 if __name__ == "__main__":
