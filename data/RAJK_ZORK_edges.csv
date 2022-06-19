@@ -2,8 +2,10 @@ FROM,OPTION_NUM,TO,TEXT_E,ONZO_PLEASER,NYUSZI_BIKA,SZUTYKOS_GURU,NAPLOPO_HAJCSAR
 T_I_1,1,T_I_11,"Lecsekkolod, hogy miért ragad a mellkasod.",0,0,0,0
 T_I_1,2,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
 T_I_11,1,T_I_111,Kutakodsz a dohányod után a zsebeidben.,0,0,0,0
-T_I_11,2,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
+T_I_11,2,T_I_112,Megnézed az időt a telefonodon.,0,0,0,0
 T_I_12,1,T_I_121,Pánik,0,0,0,0
 T_I_12,2,T_I_122,"Visszaemlékszel, hogy a jó beszámoló titka a jó időbeosztás, és veszel egy nagy levegőt...",0,0,0,0
-T_I_111,1,T_I_11,"Lecsekkolod, hogy miért ragad a mellkasod.",0,0,0,0
-T_I_112,2,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
+T_I_111,1,T_I_121,Pánik,0,0,0,0
+T_I_111,2,T_I_122,"Visszaemlékszel, hogy a jó beszámoló titka a jó időbeosztás, és veszel egy nagy levegőt...",0,0,0,0
+T_I_112,1,T_I_121,Pánik,0,0,0,0
+T_I_112,2,T_I_122,"Visszaemlékszel, hogy a jó beszámoló titka a jó időbeosztás, és veszel egy nagy levegőt...",0,0,0,0
