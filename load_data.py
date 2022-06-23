@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 
-ENDPOINT = "s3.eu-de.cloud-object-storage.appdomain.cloud"
+ENDPOINT = "https://s3.eu-de.cloud-object-storage.appdomain.cloud"
 S3 = boto3.client("s3", endpoint_url=ENDPOINT)
 BUCKET = os.environ["AWS_BUCKET"]
 
