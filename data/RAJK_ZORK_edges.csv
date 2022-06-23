@@ -1,7 +1,100 @@
-FROM,EDGE_ID,TO,TEXT_E,ONZO_PLEASER,NYUSZI_BIKA,SZUTYKOS_GURU,NAPLOPO_HAJCSAR
-T_I_1,1,T_I_1_1,"""Kutakodsz a dohányod után a zsebeidben.""",0,0,0,0
-T_I_1,2,T_I_1_2,"""Megnézed az időt a telefonodon.""",0,0,0,0
-T_I_1_1,1,T_I_1_1_1,"""Najó, elszívok egy cigit.""",0,0,0,0
-T_I_1_1,2,T_I_1_1_2,"""Bepánikolok, és felrohanok az udvarra.""",0,0,0,0
-T_I_1_2,1,T_I_1_2_1,"""Najó, elszívok egy cigit.""",0,0,0,0
-T_I_1_2,2,T_I_1_2_2,"""Bepánikolok, és felrohanok az udvarra.""",0,0,0,0
+FROM,OPTION_NUM,TO,TEXT_E,ONZO_PLEASER,BIKA_NYUSZI,SZUTYKOS_GURU,NAPLOPO_HAJCSAR
+T_I_1,1,T_I_11,"Lecsekkolod, hogy miért ragad a mellkasod.",0,0,0,0
+T_I_1,2,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
+T_I_1,3,T_I_13,Kutakodsz a dohányod után a zsebeidben.,0,0,0,0
+T_I_11,1,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
+T_I_11,2,T_I_111,Kutakodsz a dohányod után a zsebeidben.,0,0,0,0
+T_I_11,3,T_I_112,Megnézed az ehavi mosóporárakat a Lidl+ alkalmazásodon.,0,0,5,0
+T_I_12,1,T_I_1111,"Körbetapogatózol, majd a cintányér miatt a próbát tippeled. El is indulsz az ajtó felé.",0,0,0,0
+T_I_12,2,T_I_1112,"Szappantasz egy nagyot a levegőbe, majd a megszokott szag alapján a pincét tippeled.",0,0,0,0
+T_I_13,1,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
+T_I_13,2,T_I_131,"Elolvasod a kedvenc vállgazd tankönyv idézetedet, hogy kicsit megnyugtasson.",0,0,0,10
+T_I_13,3,T_I_132,"Körbenézel alaposabban, hogy hol is vagy, lehet-e valahogyan dohányozni.",0,0,0,0
+T_I_13,4,T_I_133,"Kúl, egy rágó.",0,0,0,0
+T_I_111,1,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
+T_I_111,2,T_I_111_B,"Bosszúságodban kidobnád a zsebeid tartalmát. A gyulát, meg az asztalról a szűrőt azért bemented.",-5,0,0,0
+T_I_111_B,1,T_I_1111,"Elindulsz az ajtó melletti szemeteshez, de átesel a szintetizátoron. Jó, jó, gondolod magadban, majd elcsúszol egy sörösdobozon. Büdösisten faszát jó, dehogy jó, mérgelődsz mostmár. Kidobsz mindent, majd kinyitod az ajtót előtted.",0,0,0,0
+T_I_111_B,2,T_I_1112,"Elindulsz a csocsóasztalt megkerülve a szelektívhez, majd gondosan kiválogatod a papír és fém szemeteket a zsebeidből, meg magad körül. Jól esett szelektálni.",0,0,5,0
+T_I_112,1,T_I_1112,Pár pillantásból felismered mostmár a pincét.,0,0,0,0
+T_I_112,2,T_I_1111,"Izgalmad csökkentében rájössz, hogy ez valójában a próbaterem lesz.",0,0,0,0
+T_I_131,1,T_I_1112,"Boldogságodat tovább tetőzi, hogy a jól megszokott pincében találod magad.",0,0,0,0
+T_I_131,2,T_I_1111,"Tudod te mitől döglik a légy, hamar felismered a próbaterem sajátosságait.",0,0,0,0
+T_I_132,1,T_I_1111,Ilyen jót csak a pórbában lehet hűsölni.,0,0,0,0
+T_I_132,2,T_I_1112,Ilyen jót csak a pincében lehet hűsölni.,0,0,0,0
+T_I_133,1,T_I_1112,"A kedvenc asztalifoci asztalod, és a Bíró Marciék által lent hagyott csocsókupa alapján ez a pince lesz. ",0,0,0,0
+T_I_133,2,T_I_1111,"Mivel ismered a kolit mint a tenyeredet, ráeszmélsz, hogy a próbában vagy.",0,0,0,0
+T_I_1111,1,T_I_11111,Északra indulsz a faajtó felé.,-10,0,0,0
+T_I_1111,2,T_I_11112,Észak-kelet felé indulsz és kinyitod a folyosó végi ajtót.,-10,0,0,0
+T_I_1111,3,T_I_11113,Kinyitod a déli ajtót,-10,0,0,0
+T_I_1111,4,T_I_11114,"Nyugat fele fordulsz és elborzadsz, kicsit kitakarítasz magad után mielőtt kimész.",15,0,0,0
+T_I_1112,1,T_I_11114,Körbenézel a pincében és a látottaktól szíveden úrrá lesz a láz. Kicsit összepakolsz magad után.,15,0,0,0
+T_I_1112,2,T_I_11111,Óvatosan bekopogsz a redroomba.,-10,0,0,0
+T_I_1112,3,T_I_11113,Nagyon óvatosan bekopogsz a kocsmába.,-10,0,0,0
+T_I_1112,4,T_I_11112,Kinézel az udvarra.,-10,0,0,0
+T_I_11111,1,T_I_11111_1,"Már nagyon vágytál egy sima cigire, bele is szippantasz.",0,0,0,0
+T_I_11111,2,T_I_11111_2,Illemtudóan beleszívsz az előző kör joliba.,0,-5,0,0
+T_I_11111,3,T_I_11111_3,"A buszt már úgyis lekésted, jól esne egy iqos, elfogadod.",0,0,0,0
+T_I_11111,4,T_I_11111_4,Kioktatod a beltéren dohányzókat.,-5,0,0,0
+T_I_11111,5,T_I_11111_5,Hümmögve kihátrálsz a teremből.,0,5,0,0
+T_I_11111,6,T_I_11111_6,"Kedvesen visszautasítod, elmondod, hogy sietsz a nyári táborba, és nem akarsz ennyit maradni.",5,0,0,0
+T_I_11112,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,-5,-5,0,0
+T_I_11112,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
+T_I_11113,1,T_I_11113_1,Segítesz neki.,15,0,0,0
+T_I_11113,2,T_I_11113_2,Taktikai püré.,0,0,0,0
+T_I_11113,3,T_I_11113_3,"Kérsz tőle egy dohányt először, biztos, ami biztos.",-10,0,0,0
+T_I_11114,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,-5,0,0,0
+T_I_11114,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
+T_I_11111_1,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0
+T_I_11111_1,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0
+T_I_11111_2,1,T_I_11111_21,"""Az a kedvenc második részem"" felkiálltással követed a társaidat.",10,0,0,0
+T_I_11111_2,2,T_I_11111_22,"""Bocsi de most muncholnék a másodikon."" jeligére elindulsz felfelé.",-10,0,0,0
+T_I_11111_3,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0
+T_I_11111_3,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0
+T_I_11111_4,1,T_I_11111_41,A laptop mellett ártatlanul lapuló - valszeg nagy sietségben ott hagyott - dohánytermékből cápázol egyet.,-10,0,0,0
+T_I_11111_4,2,T_I_11111_42,"Elindulsz egyedül a nagy útnak, két átszállás és röpke 5 óra alatt simán oda tudsz buszozni.",-10,0,0,0
+T_I_11111_4,3,T_I_11111_43,"Ráírsz a laptopon az UF-re, hogy itt van-e a koliban még, szívesen stoppolnál vele.",15,0,0,0
+T_I_11111_5,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,-5,0,0,0
+T_I_11111_5,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
+T_I_11111_6,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0
+T_I_11111_6,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0
+T_I_11112_1,1,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
+T_I_11112_2,1,T_I_11112_21,"Ha rajkos kezdéssel lesz indulás, akkor tuti lekésed a 'mesélt. Elsunnyogsz egyedül.",0,0,0,0
+T_I_11112_2,2,T_I_11111_42,"Nem mehet mindenki Bátor Adrival. Azt diktálja az illem, hogy megkérdezel egy fiatalt stoppra te is.",0,0,0,0
+T_I_11112_2,3,T_I_11112_22,"A pingpongosok laissez faire hozzáállása magával vonz, őket kérdezed meg.",0,0,0,0
+T_I_11113_1,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0
+T_I_11113_1,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0
+T_I_11113_2,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,-5,0,0,0
+T_I_11113_2,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
+T_I_11113_3,1,T_I_11113_31,"""Nos?"" kérded.",0,0,0,0
+T_I_11113_3,2,T_I_11113_32,"Meg sem szólalsz, tartod a szemkontaktust.",0,-10,0,0
+T_I_11113_32,1,T_I_11112_1,"Már nagyon dohányoznád, ezért kettesével szeded a fokokat.",0,0,-5,0
+T_I_11113_32,2,T_I_11112_2,"Szűrő va na szádban, óvatosan mész fel a lépcsőn.",0,0,0,0
+T_I_11111_12,1,T_I_11112_1,Felsietsz a lépcsőn.,0,0,0,0
+T_I_11111_12,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
+T_I_11111_41,1,T_I_11111_411,"Elkélne egy zuhany, mész is letusolni.",0,0,0,0
+T_I_11111_41,2,T_I_11111_42,Elindulsz egyedül.,0,0,0,0
+T_I_11111_411,1,T_I_11111_4111,"Jöhet a kövi lépcső, jól esne egy kávé.",0,0,0,0
+T_I_11111_411,2,T_I_11111_42,Elindulsz egyedül.,0,0,0,0
+T_I_11111_4111,1,T_I_11111_41111,Elfogadod a hívást.,0,0,0,0
+T_I_11111_4111,2,T_I_11111_42,Összeszorított farpofákkal elindulsz egyedül.,0,0,0,0
+T_I_11111_41111,1,T_I_11111_411111,Ha már itt hagyta valaki...,0,0,0,0
+T_I_11111_41111,2,T_I_11111_42,Elindulsz egyedül.,0,0,0,0
+T_I_11111_411111,1,T_I_11111_421,Kényelmetlenkedve de elfogadsz egy Nógrádi Ropogóst és egy fél deci Uniicumot.,0,0,0,0
+T_I_11111_411111,2,T_I_11111_422,Bedugod a fülhallgatódat a füledbe.,0,0,0,0
+T_I_11111_411111,3,T_I_11111_423,Elkezdesz heatsezgetni.,0,0,0,0
+T_I_11111_42,1,T_I_11111_421,Kényelmetlenkedve de elfogadsz egy Nógrádi Ropogóst és egy fél deci Uniicumot.,20,0,0,0
+T_I_11111_42,2,T_I_11111_422,Bedugod a fülhallgatódat a füledbe.,-5,0,0,0
+T_I_11111_42,3,T_I_11111_423,Elkezdesz heatsezgetni.,-20,0,0,0
+T_I_11112_21,1,T_I_11112_211,Kényelmi szempontból az MCC-s minibuszt választod.,,,,
+T_I_11112_21,2,T_I_11112_212,Eis Kaffee kedvelőként nem kérdés számodra melyikhez indulsz el.,,,,
+T_I_11112_21,3,T_I_11112_213,"Kikövetkezteted, hogy mivel nagyon vidékre mentek, ahol sok a ló, a lovaskocsi lesz számotokra a megoldás. Elindulsz felé.",,,,
+T_I_11112_21,4,T_I_11112_214,Megkérdezed az UF-et ő mit gondol.,,,,
+T_I_11112_211,1,T_I_11112_2111,"""De jó, jeszkesek!"" mondod oda a melletted álló UF-nek. Elindulsz feléjük.",,,,
+T_I_11112_211,2,T_I_11112_2112,"Lenézően megcsóválod a fejed. Tudod, hogy te jobb ember vagy, hiszen neked más a zenei ízlésed. Megnézed magadnak a lovas kocsit inkább.",,,,
+T_I_11112_211,3,T_I_11112_2113,Nyugdíjasokat megszégyenítő örömmel a hangodban eliramodsz a limuzin felé.,,,,
+T_I_11112_213,1,T_I_11112_2111,"""De jó, jeszkesek!"" mondod oda a melletted álló UF-nek. Elindulsz feléjük.",,,,
+T_I_11112_213,2,T_I_11112_2112,"Lenézően megcsóválod a fejed. Tudod, hogy te jobb ember vagy, hiszen neked más a zenei ízlésed. Megnézed magadnak a lovas kocsit inkább.",,,,
+T_I_11112_213,3,T_I_11112_2113,Nyugdíjasokat megszégyenítő örömmel a hangodban eliramodsz a limuzin felé.,,,,
+T_I_11111_43,1,T_I_11112_211,Kényelmi szempontból az MCC-s minibuszt választod.,,,,
+T_I_11111_43,2,T_I_11112_212,Eis Kaffee kedvelőként nem kérdés számodra melyikhez indulsz el.,,,,
+T_I_11111_43,3,T_I_11112_213,"Kikövetkezteted, hogy mivel nagyon vidékre mentek, ahol sok a ló, a lovaskocsi lesz számotokra a megoldás. Elindulsz felé.",,,,

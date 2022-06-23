@@ -54,9 +54,11 @@ def continue_game(n_clicks, selector_value, session_id):
         lambda r: dict(label=r["TEXT_E"], value=r["OPTION_NUM"]), axis=1
     )
     button_text = "Submit"
-    if sesh.current_state == "T_I_121" | sesh.current_state == "T_I_122":
+    if sesh.current_state == "T_I_121":
+        next_text = ""
+        next_radio = edge_data.loc[sesh.current_state].apply(
+        lambda r: dict(label=r["TEXT_E"], value=r["OPTION_NUM"]), axis=1)
         button_text = "Finish"
-
     return next_text, next_radio, button_text
 
 if __name__ == "__main__":

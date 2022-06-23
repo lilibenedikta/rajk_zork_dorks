@@ -1,6 +1,6 @@
 import pandas as pd
 
-edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index(["FROM", "EDGE_ID"])
+edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index(["FROM", "OPTION_NUM"])
 
 class SessionState:
     def __init__(self) -> None:
