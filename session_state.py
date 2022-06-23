@@ -6,6 +6,13 @@ class SessionState:
     def __init__(self) -> None:
         self.n_potions = 0
         self.current_state = "T_I_1"
+        self.onzo_pleaser = 0
+        self.bika_nyuszi = 0
+        self.szutykos_guru = 0
+        self.naplopo_hajcsar = 0
+        self.elszivott_cigik = 0
+        self.tarot = ""
+        
 
     def decide(self, option_num):
         self.current_state = edge_data.loc[(self.current_state, option_num), "TO"]
