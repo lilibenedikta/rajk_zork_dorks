@@ -50,6 +50,7 @@ def continue_game(n_clicks, selector_value, session_id):
     if n_clicks:
         sesh.decide(selector_value)
     next_text = node_data.loc[sesh.current_state, "TEXT_N"]
+
     if sesh.current_state in {"T_I_121", "T_I_122"}:
         next_radio = []
         button_text = "Finish"

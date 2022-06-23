@@ -1,57 +1,385 @@
-NODE_ID,TEXT_N
-T_I_1,"Nagyokat pislogsz, fáj a fejed. Körbenézel.  
 
-Ismerős minden, de valahogyan egy kicsit, egy kicsit más.  Mit keres a cintányér a kanapén melletted. Miért hamus a bal kezed. 
+NODE_ID,SHORT_SUMMARY,TEXT_N
+T_I_1,intro,"Nagyokat pislogsz, fáj a fejed.  
+
+Homályos minden, de magadat megemberelve körbenézel. Mit keres a cintányér a kanapén melletted. Miért kormos a bal kezed egy kis pontban. Miért megy az igen-igen a fejedben. 
 
 Azt már ébredéskor érezted, hogy ragad a mellkasod, az eldobált sörösdobozok számából ítélve sajnos ez több dolog is lehet.  
 
-Nem segít, hogy az elmúlt 24 órából nem emlékszel semmire.  Eltöprengesz, mi történhetett. 
+Nem segít, hogy az elmúlt 24 órából nem emlékszel semmire. Eltöprengesz, mi történhetett. 
 
 Mit csinálsz?"
-T_I_11,"Huhh, csak leönthetted magad sörrel. Azért still szar. Meg mostmár a kezed is ragad, kicsit csöpög is..
+T_I_11,miért ragad,"Huhh, csak leönthetted magad sörrel. Azért still szar. Meg mostmár a kezed is ragad, kicsit csöpög is..
 
-Kezd kicsit kitisztulni a fejed...
+Kezd kicsit kitisztulni a fejed, de a gondolataidat lefoglalja a mosópor árát érhetett inflációs várakozásaid.
 
 Mit csinálsz?"""
-T_I_12,"Szokásos zsebedből érzésre kihúzod a telód, 4:14 perc van.
+T_I_12,idő csekk,"Szokásos zsebedből érzésre kihúzod a telód, Annyit látsz csak meg, hogy 1-essel kezdődik, és már le is merült a telód. Elkezded keresgéli a töltőted, majd eszedbejut, hogy a táskádban van. De nyugi, az meg már a közös buszon.
 
-Az baj, gondolod magadban. 15 óra és 45 perc van B-dayig, és neked még nincs kész az absztraktod.
-
-No fene. Fel kéne érni az arborétumba a laptopodhoz.
-
-Most látod, hogy mindjárt lemerül a telód.
+Na azt viszont el kéne érni. Még sajog a fejed, de próbálsz rájönni, hogy hol lehetsz. Erős kognitív következtetések helyett első sorban az ilyenkor is jól működő érzékszerveidre hagyatkozol a helység kikövetkeztetésére. 
 
 Mit csinálsz?"
-T_I_111,"Az asztalon talált szűrőt megtarhálod, már be is vettél egyet a szádba.
+T_I_13,zseb 1,"Az asztalon talált szűrőt megtarhálod, már be is vettél egyet a szádba.
 
 A jobb kezeddel kutakodsz a zsebeidben, de a dohányodat nem találod.
 
 A zsebeid tartalma:
 
-A telefonod.
+* A telefonod.
+* Egy szem rágógumi.
+* A gyulád.
+* A kedvenc vállgazd tankönyv idézeted kinyomtatva, gondosan összehajtva. Mázli, ennek nem esett baja.
 
- Egy szem rágógumi.
-
-A gyulád.
-
-Egy papír valami írással rajta, de a sörös kezed miatt ez olvashatatlan.
-
-Bosszúsan nem dohányzol most. Mondjuk beltéren is vagy, lehet nem kéne.
-
-Elszívtad a cigit. Mi a következő lépés?
-"
-T_I_112,"Szokásos zsebedből érzésre kihúzod a telód, 4:14 perc van.
-
-Az baj, gondolod magadban. 15 óra és 45 perc van B-dayig, és neked még nincs kész az absztraktod.
-
-No fene. Fel kéne érni az arborétumba a laptopodhoz.
-
-Most látod, hogy mindjárt lemerül a telód.
+Bosszúsan nem dohányzol most. Mondjuk beltéren is vagy ugye. De mégis hol? 
 
 Mit csinálsz?"
-T_I_121,"A játéknak vége. 
+T_I_111,zseb 2,"Az asztalon talált szűrőt megtarhálod, már be is vettél egyet a szádba.
 
-Kizáródtál."
-T_I_122,"Hiába nyugodtál meg, az időbeosztásod szar volt. A játéknak vége. 
+A jobb kezeddel kutakodsz a zsebeidben, de a dohányodat nem találod.
 
-Kizáródtál."
+A zsebeid tartalma:
+
+* A telefonod.
+* Egy szem rágógumi.
+* A gyulád.
+* Egy papír valami írással rajta, de a sörös kezed miatt ez olvashatatlan.
+
+Bosszúsan nem dohányzol most. Mondjuk beltéren is vagy ugye. De mégis hol? 
+
+Mit csinálsz?"
+T_I_111_B,zsebet kukába,"Féllomhán felállsz és elindulsz a kuka felé. 
+
+Hol találod meg a kukát?"
+T_I_112,lidl,"Ihh az combos. Észreveszed, hogy mindjárt le is merül a telód. Elkezded keresgéli a töltőted, majd eszedbejut, hogy a táskádban van. De nyugi, az meg már a közös buszon.
+
+Ebben a pillanatban lemerül a telód, fingod nincs mennyi az idő és hogy hol vagy, Valszeg akk kedd lehet. 
+
+A fejfájásod felerősödik kicsit de körbenézel mostmár, hogy hol vagy."
+T_I_131,vállgazd idézet,"Elolvastad, és egy kellemes érzés szele jár hirtelen át. Teljesen kitisztult a fejed, boldogan körbenézel."
+T_I_132,hol lehet cigi,"Hmm egy ismerős teremben vagy, de az éles fejfájásod miatt homályosabb a gondolkodásod. A fülledt de hűs levegőtlenség miatt érzed már, hogy nyár van, és egy alagsorban pihengetsz. 
+
+Hol lehetsz?"
+T_I_133,rágó,"Nagy mákod van, ízesített, jóféle. A rágózgatás ugyan nem tesz jót a fogaknak, de segít gondolkodni és kicsit kitisztul tőle a fejed. 
+
+Körbenézel, hol lehetsz?"
+T_I_1111,próba,"Ahogy kinyitod a jól zárható próba ajtaját, szagok és fények kavalkádja csap arcon. Enyhén észak-keletre egy porfátyolos fényben úszó folyosó vezet. Délre egy ajtót találsz. Jó zene szól, de innen elég büdös jön ki, no meg valai sopánkodik bent. A folyosó végén észak felől egy fa ajtón keresztül halk zene és hívogató illatok áradnak. 
+
+Az újdonsült fényben meglátsz a bal kezeden a hamu alatt kirajzolódó betűket. Kicsit fáj, ahogyan leporolod. Óvatosan haladsz vele, elkezded kiolvasni a kirajzolódó szavakat, de néhány betű olvashatatlan.
+
+* #egg, 
+* elme, 
+* gyak, 
+* özö#b#sz
+
+""A fészkes fenébe, a közös busz!"" - átkozódsz kissé artikulálatlanul, kicsit kiszáradva. Jó lenne rájönni, hogy még elérheted-e. 
+
+Mit csinálsz?"
+T_I_1112,pince,"Elsétálsz a csocsóasztalhoz, amin meglepetésedre éppen a Barab fekszik. Biztos fáradt, békén hagyod. Viszont innen már telejsen megbizonyosodtál, hogy ez a pince, Látod, hogy megszólal egy ébresztő mellette az asztalon ""Trash talkoltam tegnap eleget az asztal mellett? Ha nem, akkor most járunk félúton a nyári tábor felé a közös busszal, itt az ideje bepótolni.""
+
+""A faszom, a közös busz!"" nyögsz fel karcosan.
+
+Sebaj, hátha van itt még valaki, akivel el tudsz menni. Attila mesélre tuti le akarsz érni, az az egyik kedvenc programod, és tudod, hogy érdemes 1-2 évente meghallgatni. 
+
+A redroomban mozgásra vagy figyelmes, kollégisták ropják még, dübörög a lábuktól a föld. A kocsmában valakik jó hangosan káromkodnak, dübörög a hanguktól a ház. Az udvaron izgatott emberek hangját hallod, agyadat ritmus rázza fel. 
+
+Mit csinálsz?"
+T_I_11111,woodroom / redroom,"Vársz kicsit majd kinyitod a faajtót. Nagy örömödre más kollégistákat találsz, akik valószínűleg egész este tolták az ipart. Egyikuk megfontoltan a telefonján teker épp egy jolánt, hogy érzékelje mennyi megy mellé. Meglátod a telefonján, hogy épp most múlt el dél, jól lekésted a közös buszt.
+
+Ezzel párhuzamosan kezdik észrevenni, hogy bejöttél, és mindenki örömtelien felkiállt. ""Whoooooo!"" örvendeznek nyíltan. Ez egyszerre tölt el jó érzéssel és tompa fejfájással. Kikövetkezteted, hogy innen most senki sem siet épp annyira, mint te. A füstöt bent vágni lehetne, de te már jól tudod ez milyen füst. Megkínálnak a füst forrásával.
+
+Mit csinálsz?"
+T_I_11112,udvar,"Kinyitottad a kopottas ajtót, és a halvány fénysugárból hirtelen megcsap a reggeli óra fényessége. Noha nem szó szerint csapott meg, a frontális lebenyedbe mégis éles fájdalom nyilal.Tegnapi rossz döntések emléke suhan át gyorsan a fejeden. Egyik se túl konkrét, de egy ""Évfolyamfeles!"" felkiálltás, egy hangos frizbizés, egy nehéz piros tárgy elejtése és egy mellkasodon megpihenő szőrös kisállat emlékét kapod el, a többit elnyomja a tompító fejfájás.
+
+Egy nedves lépcsőt találsz magad előtt. Biztos esett tegnap. A tetején valaki hangosan hallgatja a kedvenc Abba számod. 
+
+Mit csinálsz?"
+T_I_11113,kondi / kocsma,"Az ajtón betoppanva látod, hogy a spanod szenved valami súlyos dolog emelésével. Vagy legalábbis nehéznek tűnik, a rajkos spanodat ismerve ez valami könnyű teher is lehet. 
+
+Udvariasan megkérded tőle, hogy ugyan már miért kell ilyen hangosan óbégatni, bassza meg. Válaszul viszontérdeklődik, hogy tegnap mikor anyukád csinálta ezt miért nem kérdeztél rá. Majd hozzáfűzi, hogy ráesett a lábára ""ez a szar."" Megmutatja és tényleg nem néz ki jól, kicsit be is rosszulsz.
+
+Mit csinálsz?"
+T_I_11114,takarítás,"Összeszeded az eldobált sörös üvegeket, felsöpröd a széttört üveget amellett a spot mellett, ahol keltél, helyére rakod az eldobált tárgyakat. Megnyomod az ajtó melletti kapcsolót is, hátha segít. Hirtelen nem látsz több takarítani valót, így továbbálsz. 
+
+Ráeszmélsz, hogy ezzel elment kis idő, és minden külső ingert leküzdve egyből az udvar felé veszed az irányt, hátha van még ott valaki. 
+
+Egy nedves lépcsőt találsz magad előtt. Biztos esett tegnap. A tetején valaki hangosan hallgatja a kedvenc Abba számod. 
+
+Mit csinálsz?"
+T_I_11111_1,cigit fogadod el,"Megköszönöd a cigit, és még maradsz kicsit szórakozni. 
+
+Rövid idő elteltével jelzed, hogy te minnél előbb le akarsz érni NyT-ba, ezt rögtön megértik. 
+
+Sőt, felajánlanak neked egy helyet az autójukban, a sofőr épp a szomszédos helyiségben tartózkodik, és éjfél óta nem ivott.
+
+""Az derék"" ismered el. 
+
+Mit csinálsz?"
+T_I_11111_2,fűt fogadod el,"Megköszönöd a cigit, és még maradsz kicsit szórakozni.
+
+Elkezded elengedni a stresszt, amit a korai leérkezés időnyomása rakott beléd. 
+
+Elszalad melletted kicsit az idő, kezdesz kajás lenni. Ezzel párhuzamosan hívnak téged Shrek 2-t nézni a Kiállítióban.
+
+Mit csinálsz?"
+T_I_11111_3,iqost fogadod el,"Megköszönöd az iqost, és még maradsz kicsit szórakozni. 
+
+Rövid idő elteltével jelzed, hogy te minnél előbb le akarsz érni NyT-ba. Ezt rögtön megértik. 
+
+Sőt, felajánlanak neked egy helyet az autójukban, a sofőr épp a szomszédos helyiségben tartózkodik, és éjfél óta nem ivott.
+
+""Az derék"" ismered el. 
+
+Mit csinálsz?"
+T_I_11111_4,kioktatsz,"Felhívod a figyelmet arra a 2011. évi XLI. törvényre a nemdohányzók védelméről és a dohánytermékek fogyasztásának, forgalmazásának egyes szabályairól szóló 1999. évi XLII. törvény módosításáról, amely szerint Magyarország területen beltéren dohányozni szigorúan nem oké. Ez után a saját kollégistatársaikra gyakorolt hatásra hegyezed ki a mondandódat. Mind az egészségügyi kockázatra, mind a közösségi részvételtől eltántorító jellegére. 
+
+Közös megegyezés alapján távozol a helyiségből, és eldöntöd, hogy felnézel az udvarra.
+
+Az udvaron nem találsz senkit. Egy asztalon hagyott laptopon megpillantod, hogy egy friss UF épp stoppoló társat keres. Tudod, hogy az lelassítaná a lejutásodat, de ha jól sül el milyen jó élmény is lehet.
+
+Mit csinálsz?"
+T_I_11111_5,kihátrálsz,"Becsukod magad mögött az ajtót. Folytatod az utadat észak-kelet felé.
+
+Egy nedves lépcsőt találsz magad előtt. Biztos esett tegnap. A tetején valaki hangosan hallgatja a kedvenc Abba számod. 
+
+Mit csinálsz?"
+T_I_11111_6,kedvesen visszautasítpd,"A dohánytermékeket fogyasztó társaid megértik, és tiszteletben tartják a preferenciáidat. Figyelmesen próbálják nem feléd fújni a füstöt, miközben megjegyzik, hogy ők is arrafele tartanak. Sőt, ha van kedved, lassan indulnánakk is, a sofőr most kelt és épp a szomszédos helyiségben készülődik.
+
+Csatlakozol a közös kocsihoz?"
+T_I_11112_1,felfutsz a lépcsőn,"Ajajj, a csúszós lépcső közepéről visszaesel. Jó hangosan káromkodsz egyet. Majd még hármat.
+
+Felkelsz, majd egy halkabb káromkodást elmormolva újra felméred a helyzetet.
+
+A lépcső csúszik, érdemes lehet óvatosabban felmenni.
+
+Mit csinálsz?"
+T_I_11112_2,óvatosan lépcsőzöl / zsibongó udvar,"Félúton egyszer megcsúszik a lábad, de nem esel el.
+
+Mikor felérsz a lépcső tetejére nagy nyüzsgés fogad. Páran még reggeli kávéjukat isszák a tegnapi KGy után délben kelve, 5-ösével kocsi indulásokat beszélnek éppen, miközben megintt mások pingpongoznak a háttérben. Pár szende UF gyülekezik Bátor Adri körül aki épp kisorsolja kivel fog stoppolni. Nagyon jók a referenciái, ezért mindenki vele akart stoppolni. Elismerően bólintasz egyet felé.
+
+Na de, vár az Attila mesél, el kéne indulni. 
+
+Kikhez mész oda?"
+T_I_11113_1,segítesz,"""Na te tulok"" válaszolsz szívélyesen, ""gyere rám."" 
+
+Segítesz leemelni a lábáról az azt nyomó súlyokat. Meglesed a lábát, nem olyan csúnya, mint elsőre tűnt. De nem is túl szép tho. Azért a drámai effektus kedvéért hüledezel, hogy hogyan tud ráállni. Segítőkészen épp elkezdenél tárcsázni egy jó ravatalozót neki, azonban ezt udvariasan visszautasítja. 
+
+Nagyon elégedett vagy a fejeddel, már épp indulnál ki, ekkor megszólítanak megint. ""Kössz te here"" megszólítással köszöni meg a spanod a segítséget, majd emlékeztet, hogy lekésted a közös buszt. Ez visszaterelni a figyelmedet a fontos dolgokra; minél előbb leérni nyári táborba, hogy végre átéld a nyári tábor nehezen szavakba önthető érzését.
+
+Ekkor meglepetésedre megkérdi a haverod, hogy van még egy hely a kocsijukban, és van-e kedved csatlakozni. Váratlan üresedés miatt valaki még pont befért a közös buszba és inkább elment vele. ""Fair"" gondolod magadban.
+
+Mit csinálsz?"
+T_I_11113_2,behánysz,"Émelygés fog el, melyet gyorsan ki is használsz egy taktikai pürére. ""Azt a fasz"" hüledezik, majd szörnyülködve inkább kiküld a bajbajutott. 
+
+Úgy döntesz inkább továbbállsz ezek után. Kinyitod az udvar felé vezető ajtót. Egy nedves lépcsőt találsz magad előtt. Biztos esett tegnap. 
+
+Mit csinálsz?"
+T_I_11113_3,dohányt kérsz,"""Látom elfoglalt vagy"" állapítod meg. ""Egy dohány pakk nincs nálad véletlenül?"" teszed hozzá. 
+
+A spanod rádbámul, és csak néz. Majd lenéz a lábára, majd tekintete visszavándorol rád. ""Öreg"" nyögi, majd a nézéseket megismétli párszor.
+
+Te nem riadsz vissza, tartod a szemkontaktust. Kértél valamit, illik válaszolni. Ez mostantól becsületbeli, meg kicsit elvi ügy. 
+
+Nézitek így egymást kicsit. Az ő szeme oda-vissza vándorol a beszorult lába és közted, de te csak a szemét nézed. 
+
+Mit csinálsz?"
+T_I_11111_11,közös kocsit elfogadod,"Még kicsit lógtok a csapattal, elbeszélgettek a CSOK és az ingatlanárak viszonyáról, a libernyák, magát értelmiséginek valló szférában gyakori női kvóta megvalósításától elvi korlátok miatt inherens ódzkodás jelenségéről, DAAD-ról, ilyenek.
+
+Rövid idő elteltével azonban már nagy slunngal vágódsz be az anyós ülés mögé. A sofőrnek kicsit fáj a bal lába, de mivel csak ő józan hagyjátok vezetni, nem lehet nagy para. Amint elhagyjátok a Palotanegyedet rajta kívül már mindenki szunyál a kocsiban.
+
+Arra kelsz, hogy csicseregnek a madarak vagy mi. Kinyitod a szemed, és látod, hogy minden tök zöld körülötted. Kilépsz a kocsiból, és egyoncsapsz egy szúnyogot a tarkódon. Innen tudod: megérkeztél. És csodálatos.
+
+Elballagsz a legközelebbi padhoz, és nagy szerencsédre éppen hallótávolságon belül találod Attila megnyugtató hangját. Innen tudod, Attila büszke Rád.
+
+""Minden megérte"" mormolsz magadban."
+T_I_11111_12,közös kocsit visszautasítod,"Miután magadra maradtál elindulsz a csendes udvar felé.
+
+Egy nedves lépcsőt találsz magad előtt. Biztos esett tegnap. 
+
+Mit csinálsz?"
+T_I_11111_21,shrek 2,"Kibaszott jó ez a film, végig élvezed. Kinézel az udvarra, és beleggondolsz, hogy te is olyan vagy, mint egy hagyma. 
+
+Ekkor valaki hirtelen átszalad bőrönddel az udvaron, ami eszedbejuttatja az eredeti célod. Gyorsan összekapod magad, és lesietsz az udvarra, hátha elkapsz még ott valakit, beférsz esetleg egy kocsiba.
+
+Az udvaron nem találsz senkit. Egy asztalon hagyott laptopon megpillantod, hogy egy friss UF épp stoppoló társat keres. Tudod, hogy az lelassítaná a lejutásodat, de ha jól sül el milyen jó élmény is lehet.
+
+Mit csinálsz?"
+T_I_11111_22,munch a másodikon,"A másodikon ínycsiklandozó illatok fogadnak. Lentner csinálhatott kakasherepörköltet miután önfeláldozóan felajánlotta a szobáját UF lányoknak a tehermentesítő KGy közben.
+
+Egyből rászopsz az elöl hagyott herékre. Tetszik, jóféle. El lehetett volna ásni, de így is megteszi, gondolod. 
+
+Rövid idő elteltével lenézel az udvarra, hogy elmeséld ezt a meglátásodat valakinek, azoban az udvaron nem találsz senkit. Egy asztalon hagyott laptopon megpillantod, hogy egy friss UF épp stoppoló társat keres. Tudod, hogy az lelassítaná a lejutásodat, de ha jól sül el milyen jó élmény is lehet.
+
+Mit csinálsz?"
+T_I_11113_31,nos kérded,"Nagy sóhajtás közben azt válaszolj a spanod, hogy van nála minden. Kisegíted a bajból, ő pedig dohánytermékekkel viszonozza az őnzetlen kedvességet.
+
+Dohányozásra legalkalmasasbb a kültér, gondolod magadban, így elindulsz az udvar fele. Mikor szűrővel a szádban kinyitod az ajtót egy nedves lépcsőt találsz. 
+
+Mit csinálsz?"
+T_I_11113_32,farkasszem.,"Kötélből vannak az idegeid. 
+
+""Van nálam minden"" töri meg a csendet. Kisegíted a bajból, ő pedig dohánytermékekkel viszonozza az őnzetlen kedvességet.
+
+Dohányozásra legalkalmasasbb a kültér, gondolod magadban, így elindulsz az udvar fele. Mikor szűrővel a szádban kinyitod az ajtót egy nedves lépcsőt találsz. 
+
+Mit csinálsz?"
+T_I_11111_41,üres udvar 1 - cigi,"Nehéz döntés, nem kéne elhamarkodni, jut eszedbe. A laptop mellett talált dohánytermékekből tekersz egy cigarillót, majd a zsebedből előkapott gyújtóval meggyújtod. 
+
+Önfeledt pöfékelésed közben mélyebb pillantásokat vetsz a gyújtódra, mire rájössz, hogy ez nem is a tied. Nagyon szép állapotban van és működött elsőre. Egy pillanatra átfut a fejeden, hogy berakd a másodikról rekvirált lenovó és iphone töltő gyűjteményed közé, de hátha ennek még hasznát veszed az utadon.
+
+Elégedetten elszívod az utolsó slukkot, majd beleszagolsz a tiszta udvari levegőbe. Sajnos megérzed a saját szagodat is.
+
+Mit csinálsz?"
+T_I_11111_42,üres udvar 2 - egyedül mész,"A buszállomáson hamar megtalálod az első buszt, ami elvisz a térség nagyvárosába, ahonnan már csak 2 busz és seperc alatt ott vagy. 
+
+Ahogy kizötyög a busz a Népligetből a melletted ülő úriember elkezd hozzád beszélni. A pupillájából egyértelműen leesik neked, hogy annyira sincs magánál, mint az a DB, aki eltörölte a SzIB-et. 
+
+Elkezd neked a bőröndjéből Kadarkát árulni, becsületkassza alapon, mondván csak ma csak neked akciósan odaadja. De megpillantasz a táskájában egy csomó 7 days croissain-t, tegnapi pizza maradékokat, pár kőbit meg 1-2 felbontott üveg Unicumot, s még mi egymást.
+
+Elgondolkozol, hogy a kocsmából elkapott hangok vajon ettől a kedves úrtól származhattak-e. 
+
+Gyorsan elhessegeted ezt a gondolatot. Közben a melletted ülő már kezd kipakolni maga köré, hogy vajon mire lehet szükséged.
+
+Mit csinálsz?"
+T_I_11111_43,üres udvar 3 - UF-fel mész,"Mekkora szerencse, épp egy illemtudó végzős szobájában töltötte az estét, úgyhogy még pont itt van. Habozás nélkül beleegyezik a közös stoppolásba, majd tegnapi eldobált pizzás dobozokból gyorsan úti célt jelző táblákat csináltok, mielőtt már kint is vagytok az ajtón. 
+
+Mivel taktikusan biológiai fiú-lány párosként indultatok, amint kiálltatok elkezdtek tolongani értetek a sztráda mellet. Megállt egy minibusz MCC felirattal az oldalán, egy szerződés szerint csak Eis Kaffee-t szállító kamion, és egy versenylószállító kocsi, MCC felirattal az oldalán.
+
+Mit csinálsz?"
+T_I_11111_411,cigi után zuhany,"Lezuhanyoztál a TV-szobában. A felfrissülés első lépcsője pipa.
+
+Mit csinálsz?"
+T_I_11111_4111,zuhany után kávé,"Kényelmesen lefőzöl egy kávét magadnak a negyediken. Miután elszürcsölgetted, elkezd hívni a természet.
+
+Mit csinálsz?"
+T_I_11111_41111,kávé után kaki,"Most, hogy minden kész, itt az ideje elindulni. Leérsz az udvarra, és ismét meglátod az asztalon hagyott dohányt. 
+
+Mit csinálsz?"
+T_I_11111_411111,kaki után cigi,"A váratlan ajándék cigi elszívása után kilépsz a duplaajtón, és elindulsz a buszállomás felé.
+
+A buszállomáson hamar megtalálod az első buszt, ami elvisz a térség nagyvárosába, ahonnan már csak 2 busz és seperc alatt ott vagy. 
+
+Ahogy kizötyög a busz a Népligetből a melletted ülő úriember elkezd hozzád beszélni. A pupillájából egyértelműen leesik neked, hogy annyira sincs magánál, mint az a DB, aki eltörölte a SzIB-et. 
+
+Elkezd neked a bőröndjéből Kadarkát árulni, becsületkassza alapon, mondván csak ma csak neked akciósan odaadja. De megpillantasz a táskájában egy csomó 7 days croissain-t, tegnapi pizza maradékokat, pár kőbit meg 1-2 felbontott üveg Unicumot, s még mi egymást.
+
+Elgondolkozol, hogy a kocsmából elkapott hangok vajon ettől a kedves úrtól származhattak-e. 
+
+Gyorsan elhessegeted ezt a gondolatot. Közben a melletted ülő már kezd kipakolni maga köré, hogy vajon mire lehet szükséged.
+
+Mit csinálsz?"
+T_I_11111_421,leszállítanak.,"Elkezd kitölteni egy kis Unicumot neked egy repedt felespohárba, közben már falod a száraz ropit. 
+
+A mögötted ülőnek több sem kellett.
+
+Ki sem érsz Budapestről, de már elkaptak a NAV-osok. Mivel nem volt kiírva sehova, hogy becsületkassza, ezért így tök jogos az egész, gondolod.
+
+Leszállítanak a buszról, ahol eszedbejut, hogy még nem fizettél, úgyhogy technikailag nem követtél el semmit. Megúszod egy figyelmeztetéssel, de a busz már sehol se látszik.
+
+Mikor visszaérsz a buszállomásra látod, hogy már csak hajnal 4-re fogsz leérni. Nincs mese, lekésted az egész első napot. 
+
+Fejedet lehajtva elszégyelled magad."
+T_I_11111_422,füles be,"A kellemes zenehallgatás élménye magával ránt, így figyelmen kívül hagyod azt is, mikor a mögötted ülő NAV-osok leszállítják a melletted ülő tagot a buszról, amikor nekik sikerült eladnia pontosan 1 szem rágót. Ilyenek ezek a Pest vármegyei főispánság emberei, gondolod unottan, majd folytatod az utadat.
+
+Mikor a 3. busztól 20 perc sétára megérkezel a nyári táborba, már látod, hogy szedelődzködnek az újonnan felvettek, véget ért az Atttila mesél. 
+
+Eleinte elszomorodsz, de ekkor eszedbejut, hogy még nem fizetted be a nyári tábor díját. Gyorsan befizeted, majd összeszeded magad az ismerkedős programra. 
+
+Azért szép az élet, gondolod feltöltődve, kár lett volna disszidálni."
+T_I_11111_423,iqos,"Na ez valahogy nem tetszik a melletted ülőnek. Sem a mögötted ülőnek. Sem a sofőrnek, de még az ellenőrnek sem.
+
+Leszállítanak a buszról, de megúszod egy figyelmeztetéssel, de a busz már sehol se látszik.
+
+Mikor visszaérsz a buszállomásra látod, hogy már csak hajnal 4-re fogsz leérni. Nincs mese, lekésted az egész első napot. 
+
+Fejedet lehajtva elszégyelled magad."
+T_I_11112_21,UF stopp,"El is kapsz egy szimpatikus UF-et, és megkérded, hogy mentek-e együtt. Könnyű dolgod volt, az összes nagyon szimpatikus még. Habozás nélkül beleegyezik a közös stoppolásba, majd tegnapi eldobált pizzás dobozokból gyorsan úti célt jelző táblákat csináltok, mielőtt már kint is vagytok az ajtón. 
+
+Mivel taktikusan biológiai fiú-lány párosként indultatok, amint kiálltatok elkezdtek tolongani értetek a sztráda mellet. Megállt egy minibusz MCC felirattal az oldalán, egy szerződés szerint csak Eis Kaffee-t szállító kamion, és egy versenylószállító kocsi, MCC felirattal az oldalán.
+
+Mit csinálsz?"
+T_I_11112_22,pingpongosok,"Mikor odaérsz a pingpongosokhoz, épp befejezik a meccset, és odagyűlnek a közeli asztalhoz nagy érdeklődve. Az asztalnál Mendöl Márk és Bozó Benedek szkandereznek tét nélkü. A nézők között Andort pillantod meg, aki gondolkodva lesi az aktust.
+
+Úgy döntesz nem várod meg hogy alakul, akár hónapokig is eltarthat. 
+
+Valaki jönne még most busszal a Népligetből? kérdi valaki mögüled. Kapva kapsz az alkalmon és már süvítesz is a kijárat felé. 
+
+A buszállomáson beültök hátra és jót beszélgetve, kártyázgatva töltitek el a következő 5 órát. 
+
+Sajnos épp lekéstétek az Attila mesélt. Eleinte elszomorodsz, de ekkor eszedbejut, hogy még nem fizetted be a nyári tábor díját. Gyorsan befizeted, majd összeszeded magad az ismerkedős programra. 
+
+Azért szép az élet, gondolod feltöltődve, kár lett volna disszidálni."
+T_I_11112_211,MCC-s minibusz,"Mikor felszálltok és elindul a minibusz döbbentek rá, hogy ez egy csapda volt. Elfolytasz magadban egy halk sikolyt, mikor meglátod az első fa logóval ellátott egyenpulcsit. Az UF társad némán elpityeredik melletted, megnyugtatóan megszorítod a kezét.
+
+Ez valójában egy faktos matektáboros minibusz.
+
+Barátkozás szempontjából átfestették a FAKT felitatot, derül ki hamar. Olybá tűnik sohase választotta őket egy stoppos se az évtizedes működésük alatt, és mivel már egymás társaságát is unják, kétségbeesésükben ennél jobb ötlet nem jutott eszükbe autonóm fiatalokat bevonzani barátkozni.
+
+Elkezdtek beszélgetni velük, és amúgy ők pont kedves embereknek tűntek. Egy szűk óra múlva azért mégis azt hazudjátok, hogy megérkeztetek.
+
+Kiraknak titeket egy benzinkútnál. ""Milyen kedvesek a diákszervesek"" jegyzi meg stoppos társad, amire csak egyetértően bólintasz egyet.
+
+A kúton megpillantotok egy másik rajkos csapatot, épp technóra torzulgatnak tankolás közben, terrorizálva a helyi lakosságot. Az áldozatok között megpillantotok egy lovait nyugtató kocsist, aki épp csak ebédelni tért volna be. Épp elindultok feléjük, mikor egy limuzin-szerű autó téved arra OV felirattal.
+
+Mit csinálsz?"
+T_I_11112_212,Eis Kaffee-s kamion,"Mikor felszálltok a kamionra veszitek csak észre, hogy Mészi vezet állszakállban és álbajuszban.
+
+""Nyomás"" sürget titeket, majd rálép a gázpedálra. Nem meritek megkérdezni, hogy honnan van a kamion tele Eis Kaffee-val, de mivel rábont egy Nógrádi ropogósra és egyből megkínál titeket, ezt most elengeditek neki. 
+
+Mészi kiváló sofőrnek bizonyul, senkinek sem ment neki, egyszer sem fékezett túl semmit, és még a parkolást is ügyesen megoldotta. 
+
+Ilyen sofőr mellett kényelmesen leértek az Attila mesél közepére. 
+
+Leültök a legközelebbi padhoz, és az utolsó sorból hallgatjátok Attila megnyugtató hangját, aki ebben a pillanatban rátok mosolyog. Innen tudod, Attila büszke Rád.
+
+""Minden megérte"" mormolod magadban."
+T_I_11112_213,MCC-s lószállító,"Az MCC-sek társadalmilag nem épp oly érzékenyek, mint gondotlad, és a lovakhoz raktak hátra. ikor megálltok egy benzinkútnál kiszálltok egy kis friss levegőért, azonban az egyik ló elfut mellettetek. 
+
+Úgy döntötök jobb nem szólni, és leléptek inkább.
+
+A kúton megpillantotok egy másik rajkos csapatot, akik épp technóra torzulgatnak tankolás közben, terrorizálva a helyi lakosságot. Az áldozatok között megpillantotok egy lovait nyugtató kocsist, aki épp csak ebédelni tért volna be. Épp elindultok feléjük, mikor egy limuzin-szerű autó téved arra OV felirattal.
+
+Mit csinálsz?"
+T_I_11112_214,UF-et megkérdezed mit gondol,"""Milyen jól megy az MCC-seknek, tudtam, hogy oda kellett volna jelentkeznem"" szólal meg melletted az UF vészjóslóan. 
+
+Összenevettek. Értékeitek és elveitek miatt az Eis Kaffee-t szállító kamiont válsztjátok összhangban.
+
+Mikor felszálltok a kamionra veszitek csak észre, hogy Mészi vezet állszakállban és álbajuszban.
+
+""Nyomás"" sürget titeket, majd rálép a gázpedálra. Nem meritek megkérdezni, hogy honnan van a kamion tele Eis Kaffee-val, de mivel rábont egy Nógrádi ropogósra és egyből megkínál titeket, ezt most elengeditek neki. 
+
+Mészi kiváló sofőrnek bizonyul, senkinek sem ment neki, egyszer sem fékezett túl semmit, és még a parkolást is ügyesen megoldotta. 
+
+Ilyen sofőr mellett kényelmesen leértek az Attila mesél közepére. 
+
+Leültök a legközelebbi padhoz, és az utolsó sorból hallgatjátok Attila megnyugtató hangját, aki ebben a pillanatban rátok mosolyog. Innen tudod, Attila büszke Rád.
+
+""Minden megérte"" mormolod magadban."
+T_I_11112_2111,technós rakjkosok,"Nagyon megörültök egymásnak. Kiderül, hogy ebben a vármegyében nem tilos 7-en ülni egy autóban, mert az gépkocsi fogalmát még nem fedezték fel itt. Ekkor már Viktor is ott áll mellettetek, összemosolyogtok.
+
+""A jó Isten küldte nekünk Orbán Viktort"" kiálltja el magát valaki, ti pedig már-már önkéntelenül bólogattok erre.
+
+Folytatjátok az utatokat a táborba immár 7-en. Nagyon jó a hangulat, de a plusz súly miatt az ideálisnál lassabban haladtok sajnos. 
+
+Vacsorára értek oda az asztalokhoz, ami miatt mind elszomorodtok. Lekéstétek az Attila mesélt, de legalább az ismerkedős programon részt tudtok venni. Ez új erővel tölt el titeket, miközben vígan falatoztok az esti bőrös virslin és aznapos zsemlén.
+
+Azért szép az élet, gondolod feltöltődve, kár lett volna disszidálni."
+T_I_11112_2112,lovaskocsi,"A morális iránytűd miatt már a lovásszal beszélgetsz és szálsz föl mellé. Mikor elhagyjátok a benzinkutat egy forgalmatlan kerülőút felé jössz rá, hogy a társad nem téged választott. Vajon mi lehet az oka? Lamentálsz a döntéseiden, de semmi nem jut eszedbe.
+
+A lovas kocsi nagyon lassan visz közelebb az úti célodhoz, az utolsó 10 kilómétert már sétálva teszed meg ráadásul.
+
+Korahajnalban érkezel meg, de nagy fáradságodba már bulizni sincs kedved. Lekésted amiért siettél, és még panaszkodni sem tudsz másokra.
+
+Fejedet lehajtva elszégyelled magad."
+T_I_11112_2113,OV,"""Doktor miniszterelnökúr!"" kiálltotok fel mindketten.
+
+Megrohamozzátok a kegyelmes úr hintaját, és szóba elegyedtek vele. Először megköszöntétek neki Sallai dupláját az angol-magyaron, és kíváncsian érdeklődtök, hogy az Elk*tuk nevében mit takar ki a csillag. Ezekről szívályesen elcseveg veletek a főnök, azonban most éppen fontos küldetésen van, magyarázza épp: járja az országot még egy ksi misebor után, hátha az oroszok is kérnek. 
+
+Bedobjátok, hogy a halál faszán van egy kis falu, ahol a népi kultúra érintetlensége miatt biztosan van sok misebor. Sőt, szinte az ukrán határ szélén is van. Megtetszik neki az ötlet, de vonakodik kicsit, mert már nagyon szeretne Stop Soros feliratokat rajzolgatni zsírkrétával a limóban. Végül csak sikerül meggyőzni azzal, hogy szeretnétek világra hozni még egy magyart, de ehhez szükséges egy nyugodt környezet, viszont errefele kötelező nemváltó műtétekkel riogatják a bölcsiseket. Belátja, hogy a körülmények így nem alkalmasak rendes, keresztény futballistát szülni, úgyhogy be is ültök a limóba.
+
+Elindultok a sztrádán, hallgatva egy kellemes népi zenei lejátszási listát, melyet 1-1 klasszikus tör csak meg. Mikor felcsendül az ""Igen, igen"" mind elmorzsoltok egy örömkönnyet, hogy lassan másfél évtizede nem lövettek senki szemébe.
+
+Telik-múlik az idő, de csak leértek a nyári táborba. A miniszterelnöki kocsi olyan hamar levitt, hogy még Attilát sem látjátok.
+
+Kis idő elteltével megjelenik mindenki. Leülsz a legközelebbi padhoz, és az első sorból hallgatod Attila megnyugtató hangját, aki ebben a pillanatban rádmosolyog. Innen tudod, Attila büszke Rád.
+
+""Minden megérte"" mormolod magadban."
