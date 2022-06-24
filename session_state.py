@@ -12,7 +12,7 @@ class SessionState:
         self.naplopo_hajcsar = 0
         self.elszivott_cigik = 0
         self.tarot = ""
-        
+        self.user_id = ""
 
     def decide(self, option_num):
         self.current_state = edge_data.loc[(self.current_state, option_num), "TO"]

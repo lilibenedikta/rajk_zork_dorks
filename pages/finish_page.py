@@ -9,12 +9,13 @@ import dash_bootstrap_components as dbc
 import dash
 
 
-dash.register_page(__name__, path="/page-2")
+dash.register_page(__name__, path="/finish")
 
 layout = html.Div(
     children = [
         html.Link(href="/assets/style.css", rel="stylesheet"),
-        html.H1("Hello World", className="good-text")
+        html.H1("Gratulálunk, sikeresen végigjátszottad a Sose lesz vége!-t!", className="centre_text"),
+        html.H1("A statisztikáid:", className="centre_text_5")
     ]
 )
 

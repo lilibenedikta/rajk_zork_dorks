@@ -26,7 +26,8 @@ server = app.server
 app.layout = html.Div(
     children = [
         html.Link(href="/assets/style.css", rel="stylesheet"),
-        dcc.Dropdown(["A", "B"], value="A", id="session-id"),
+        dcc.Dropdown(["A", "B"], value="A", id="initial_user_id"),
+        dcc.Markdown(id="user_id", className="user_id_text_topright"),
         dash.page_container,
     ]
 )

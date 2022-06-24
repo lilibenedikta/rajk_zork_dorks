@@ -11,7 +11,7 @@ import pandas as pd
 
 import dash
 
-dash.register_page(__name__, path="/")
+dash.register_page(__name__, path="/gameon")
 
 
 edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index("FROM")
@@ -24,10 +24,13 @@ STATES = defaultdict(SessionState)
 
 
 layout = html.Div(
-    children = [dcc.Markdown(id="situation", className="good-text"),
-        dcc.RadioItems(id="option_selector", className="good-text", inline=False),
+    children = [dcc.Markdown(id="situation", className="good_text"),
+        dcc.RadioItems(id="option_selector", className="good_radio", inline=False),
         dbc.Button("Submit", id="submit_gomb", n_clicks=0),
-        dbc.Button("Hallo World", id = "finish_gomb", href="/page-2"),
+        dbc.Button("Befejezés", id = "finish_gomb", href="/finish"),
+        dbc.Button("2. fejezet", id = "chapter_2_gomb", href="/chapter_two_divider"),
+        dbc.Button("3. fejezet", id = "chapter_3_gomb", href="/chapter_three_divider"),
+        dbc.Button("4. fejezet", id = "chapter_4_gomb", href="/chapter_four_divider"),
 ]
 )
 
@@ -36,13 +39,16 @@ layout = html.Div(
     [
         Output("situation", "children"),
         Output("option_selector", "options"),
-        Output("finish_gomb", "style"),
-        Output("submit_gomb", "style")
+        Output("submit_gomb", "style"),
+        Output("chapter_2_gomb", "style"),
+        Output("chapter_3_gomb", "style"),
+        Output("chapter_4_gomb", "style"),
+        Output("finish_gomb", "style")
     ],
     Input("submit_gomb", "n_clicks"),
     [
         State("option_selector", "value"),
-        State("session-id", "value"),
+        State("initial_user_id", "value"),
     ],
 )
 def continue_game(n_clicks, selector_value, session_id):
@@ -64,12 +70,18 @@ def continue_game(n_clicks, selector_value, session_id):
     }:
         next_radio = []
         submit_button_style = {"visibility":"hidden"}
-        finish_button_style = {"visibility":"visible"}
+        chapter_2_gomb = {"visibility":"visible"}
+        chapter_3_gomb = {"visibility":"hidden"}
+        chapter_4_gomb = {"visibility":"hidden"}
+        finish_button_style = {"visibility":"hidden"}
 
     else:
         next_radio = edge_data.loc[sesh.current_state].apply(
             lambda r: dict(label=r["TEXT_E"], value=r["OPTION_NUM"]), axis=1
         )
         submit_button_style = {"visibility":"visible"}
+        chapter_2_gomb = {"visibility":"hidden"}
+        chapter_3_gomb = {"visibility":"hidden"}
+        chapter_4_gomb = {"visibility":"hidden"}
         finish_button_style = {"visibility":"hidden"}
-    return next_text, next_radio, finish_button_style, submit_button_style
+    return next_text, next_radio, submit_button_style, chapter_2_gomb, chapter_3_gomb, chapter_4_gomb, finish_button_style, 

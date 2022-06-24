@@ -27,3 +27,33 @@ def update_graph(df, value):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
+######### a failed try 
+
+    import os
+
+from collections import defaultdict
+from dash import Dash, dcc, html
+from dash.dependencies import Input, Output, State
+from flask import send_from_directory
+import dash_bootstrap_components as dbc
+
+import dash
+
+
+dash.register_page(__name__, path="")
+
+layout = html.Div(
+    children = [
+        html.Link(href="/assets/style.css", rel="stylesheet"),
+        dcc.Markdown("--____---------------------------_------------------------------------------------------_-", className="centre_text_1"),
+        dcc.Markdown("-/ ___|----___----___----___----| |---___---___---____---__---__---___----__-_----___--| |", className="centre_text_2"),
+        dcc.Markdown("-\___ \---/ _ \--/ __|--/ _ \---| |--/ _ \-/ __|-|_  /---\ \-/ /--/ _ \--/ _` |--/ _ \-| |", className="centre_text_3"),
+        dcc.Markdown("--___) |-| (_) |-\__ \-|  __/---| |-|  __/-\__ \--/ /-----\ V /--|  __/-| (_| |-|  __/-|_|", className="centre_text_4"),
+        dcc.Markdown("-|____/---\___/--|___/--\___|---|_|--\___|-|___/-/___|-----\_/----\___|--\__, |--\___|-(_)", className="centre_text_5"),
+        dcc.Markdown("-------------------------------------------------------------------------|___/------------", className="centre_text_6"),
+        dcc.Input(id="text_input_small", type="text", placeholder="Enter user ID")
+    ]
+
+)
+

@@ -2,18 +2,128 @@ body {
     background-color: black;
 }
 
-.good-text {
+.good_text {
     width: 100%;
-    height: 250px;
+    height: 500px;
+    font-family: "Courier";
+    color: #39FF14;
+    background-color: black;
+    text-align-last: left;
+}
+
+.good_radio {
+    width: 100%;
+    height: 100px;
+    font-family: "Courier";
+    color: #39FF14;
+    background-color: black;
+    text-align-last: left;
+}
+
+.user_id_text_topright {
+    position: absolute;
+    top: 0%; left: 0%;
+    transform: translateX(-50%) translateY(-50%);
     font-family: "Courier";
     color: #39FF14;
     background-color: black;
 }
 
-#text-input-small {
-    width: 100%;
-    height: 20px;
+.centre_text {
+    position: absolute;
+    top: 35%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Courier";
+    color: #39FF14;
+    background-color: black;
+}
+
+.centre_text_1 {
+    position: absolute;
+    top: 36%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "monospaced";
+    color: #39FF14;
+    background-color: black;
+}
+
+.centre_text_2 {
+    position: absolute;
+    top: 38%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "monospaced";
+    color: #39FF14;
+    background-color: black;
+}
+
+.centre_text_3 {
+    position: absolute;
+    top: 40%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "monospaced";
+    color: #39FF14;
+    background-color: black;
+}
+
+.centre_text_4 {
+    position: absolute;
+    top: 42%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Courier";
+    color: #39FF14;
+    background-color: black;
+}
+
+.centre_text_5 {
+    position: absolute;
+    top: 46%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Courier";
+    color: #39FF14;
+    background-color: black;
+}
+
+.centre_text_6 {
+    position: absolute;
+    top: 46%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "monospaced";
+    color: #39FF14;
+    background-color: black;
+}
+
+#text_input_small {
+    position: absolute;
+    top: 60%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
     font-family: Courier;
+    color: #39FF14;
+    background-color: black;
+}
+
+.centre_button {
+    position: absolute;
+    top: 66%; left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Courier";
+    color: #39FF14;
+    background-color: black;
+}
+
+.centre_button_left {
+    position: absolute;
+    top: 55%; left: 43%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Courier";
+    color: #39FF14;
+    background-color: black;
+}
+
+.centre_button_right {
+    position: absolute;
+    top: 55%; left: 57%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Courier";
     color: #39FF14;
     background-color: black;
 }
