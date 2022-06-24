@@ -44,5 +44,4 @@ def save_session(n_clicks,user_id):
     if n_clicks:
         STATES = pickle.load(s3.get_object(Bucket = bucket, Key = "all_session_states").read())
         s3.put_object(Bucket=bucket, Key=user_id, Body=pickle.dump(STATES[user_id]))
-
     return user_id

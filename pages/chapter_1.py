@@ -32,7 +32,7 @@ STATES = defaultdict(SessionState)
 
 
 
-key='all_states.pkl'
+key='all_session_states'
 pickle_byte_obj = pickle.dumps(STATES) 
 s3_resource = boto3.resource('s3')
 
@@ -80,8 +80,8 @@ def continue_game(n_clicks, selector_value, session_id):
         "T_I_11112_22",
         "T_I_11111_422",
         "T_I_11112_2112",
-        "T_I_11111_423",
-        "T_I_11111_421"
+        "T_I_11111_423"#,
+        #"T_I_11111_421"
 
     }:
         next_radio = []
@@ -90,8 +90,10 @@ def continue_game(n_clicks, selector_value, session_id):
         chapter_3_gomb = {"visibility":"hidden"}
         chapter_4_gomb = {"visibility":"hidden"}
         finish_button_style = {"visibility":"hidden"}
-        s3_resource.Object(bucket,key).put(Body=pickle_byte_obj)
+        #s3_resource.Object(bucket,key).put(Body=pickle_byte_obj)
         #s3.put_object(Bucket=bucket, Key="all_session_states", Body=pickle.dump(STATES, open(".p", "wb")))
+        s3.put_object(Bucket=bucket, Key="all_session_states", Body=pickle_byte_obj)
+        
         # ITT EL KELL MENTENI A SESSIONSTATE-ET (SESH-T)  !!!!!!!!!!!!
  
     else:
