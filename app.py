@@ -31,7 +31,7 @@ app.layout = html.Div(
     ]
 )
 
-#USER_IDS = defaultdict(STATES.user_id) ### Ebben nem vagyok annyira magabiztos
+#USER_IDS = defaultdict(STATES.keys.user_id) ### Ebben nem vagyok annyira magabiztos
 
 @app.server.route("/assets/<path:path>")
 def static_file(path):
