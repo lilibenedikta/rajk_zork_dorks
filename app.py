@@ -20,7 +20,7 @@ state = "T_I_1"
 STATES = defaultdict(SessionState)
 
 
-app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, "style.css"], use_pages=True, pages_folder="pages")
+app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, "style.css"], use_pages=True)
 server = app.server
 
 app.layout = html.Div(
