@@ -72,7 +72,16 @@ def continue_game(n_clicks, selector_value, session_id):
     next_text = node_data.loc[sesh.current_state, "TEXT_N"]
 
     if sesh.current_state in {
-        "T_III_0"
+        "T_I_11111_11",
+        "T_I_11112_212",
+        "T_I_11112_214",
+        "T_I_11112_2113",
+        "T_I_11112_2111",
+        "T_I_11112_22",
+        "T_I_11111_422",
+        "T_I_11112_2112",
+        "T_I_11111_423",
+        "T_I_11111_421"
 
     }:
         next_radio = []

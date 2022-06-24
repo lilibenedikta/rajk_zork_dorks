@@ -17,7 +17,6 @@ dash.register_page(__name__, path="/chapter_two")
 edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index("FROM")
 node_data = pd.read_csv("data/RAJK_ZORK_nodes.csv").set_index("NODE_ID")
 
-state = "T_I_1"
 
 STATES = defaultdict(SessionState)
 
@@ -58,15 +57,7 @@ def continue_game(n_clicks, selector_value, session_id):
     next_text = node_data.loc[sesh.current_state, "TEXT_N"]        
 
     if sesh.current_state in {
-        "T_I_11112_2113",
-        "T_I_11112_2112",
-        "T_I_11112_2111",
-        "T_I_11112_214",
-        "T_I_11112_22",
-        "T_I_11111_423",
-        "T_I_11111_422",
-        "T_I_11111_421",
-        "T_I_11111_11",
+        "T_III_0"
     }:
         next_radio = []
         submit_button_style = {"visibility":"hidden"}
