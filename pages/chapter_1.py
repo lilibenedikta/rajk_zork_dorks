@@ -75,6 +75,8 @@ def continue_game(n_clicks, selector_value, session_id):
         chapter_4_gomb = {"visibility":"hidden"}
         finish_button_style = {"visibility":"hidden"}
 
+        # ITT EL KELL MENTENI A SESSIONSTATE-ET (SESH-T)  !!!!!!!!!!!!
+ 
     else:
         next_radio = edge_data.loc[sesh.current_state].apply(
             lambda r: dict(label=r["TEXT_E"], value=r["OPTION_NUM"]), axis=1

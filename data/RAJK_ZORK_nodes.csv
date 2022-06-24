@@ -1,4 +1,3 @@
-
 NODE_ID,SHORT_SUMMARY,TEXT_N
 T_I_1,intro,"Nagyokat pislogsz, fáj a fejed.  
 
@@ -370,16 +369,17 @@ A lovas kocsi nagyon lassan visz közelebb az úti célodhoz, az utolsó 10 kil�
 Korahajnalban érkezel meg, de nagy fáradságodba már bulizni sincs kedved. Lekésted amiért siettél, és még panaszkodni sem tudsz másokra.
 
 Fejedet lehajtva elszégyelled magad."
-T_I_11112_2113,OV,"""Doktor miniszterelnökúr!"" kiálltotok fel mindketten.
+T_I_11112_2113,OV,"""Professzor Doktor Miniszterelnök Úr!"" kiálltotok fel mindketten.
 
-Megrohamozzátok a kegyelmes úr hintaját, és szóba elegyedtek vele. Először megköszöntétek neki Sallai dupláját az angol-magyaron, és kíváncsian érdeklődtök, hogy az Elk*tuk nevében mit takar ki a csillag. Ezekről szívályesen elcseveg veletek a főnök, azonban most éppen fontos küldetésen van, magyarázza épp: járja az országot még egy ksi misebor után, hátha az oroszok is kérnek. 
+Megrohamozzátok a kegyelmes úr hintaját, és szóba elegyedtek vele. Először megköszöntétek neki Sallai dupláját az angol-magyaron, és kíváncsian érdeklődtök, hogy az Elk*tuk nevében mit takar ki a csillag. Ezekről szívályesen elcseveg veletek a főnök. Egy ponton jelzi azonban, hogy most éppen fontos küldetésen van: épp járja az országot még egy kis misebor után, magyarázza, hátha az oroszok is kérnek. 
 
-Bedobjátok, hogy a halál faszán van egy kis falu, ahol a népi kultúra érintetlensége miatt biztosan van sok misebor. Sőt, szinte az ukrán határ szélén is van. Megtetszik neki az ötlet, de vonakodik kicsit, mert már nagyon szeretne Stop Soros feliratokat rajzolgatni zsírkrétával a limóban. Végül csak sikerül meggyőzni azzal, hogy szeretnétek világra hozni még egy magyart, de ehhez szükséges egy nyugodt környezet, viszont errefele kötelező nemváltó műtétekkel riogatják a bölcsiseket. Belátja, hogy a körülmények így nem alkalmasak rendes, keresztény futballistát szülni, úgyhogy be is ültök a limóba.
+Bedobjátok, hogy a halál faszán van egy kis falu, ahol a népi kultúra érintetlensége miatt biztosan van sok misebor. Sőt, az ukrán határhoz jó közel is van. Megtetszik neki az ötlet, de vonakodik kicsit, mert már nagyon szeretne Stop Soros feliratokat rajzolgatni zsírkrétával a limóban. Végül csak sikerül meggyőzni azzal, hogy szeretnétek világra hozni még egy magyart, de ehhez szükséges egy nyugodt környezet, viszont errefele kötelező nemváltó műtétekkel riogatják a bölcsiseket. Belátja, hogy a körülmények így nem alkalmasak rendes, keresztény futballistát fogantatni, úgyhogy be is ültet a limóba.
 
-Elindultok a sztrádán, hallgatva egy kellemes népi zenei lejátszási listát, melyet 1-1 klasszikus tör csak meg. Mikor felcsendül az ""Igen, igen"" mind elmorzsoltok egy örömkönnyet, hogy lassan másfél évtizede nem lövettek senki szemébe.
+Elindultok a pályán, hallgatva egy kellemes népi zenei lejátszási listát, melyet 1-1 klasszikus tör csak meg. Mikor felcsendül az ""Igen, igen"" mind elmorzsoltok egy örömkönnyet, hogy lassan másfél évtizede nem lövettek senki szeme közé.
 
 Telik-múlik az idő, de csak leértek a nyári táborba. A miniszterelnöki kocsi olyan hamar levitt, hogy még Attilát sem látjátok.
 
 Kis idő elteltével megjelenik mindenki. Leülsz a legközelebbi padhoz, és az első sorból hallgatod Attila megnyugtató hangját, aki ebben a pillanatban rádmosolyog. Innen tudod, Attila büszke Rád.
 
 ""Minden megérte"" mormolod magadban."
+T_II_1,mi vaaaaaan,Odaszólsz miiivaaan

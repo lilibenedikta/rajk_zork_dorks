@@ -19,7 +19,6 @@ state = "T_I_1"
 
 STATES = defaultdict(SessionState)
 
-
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, "style.css"], use_pages=True)
 server = app.server
 
@@ -32,12 +31,21 @@ app.layout = html.Div(
     ]
 )
 
+#USER_IDS = defaultdict(STATES.user_id) ### Ebben nem vagyok annyira magabiztos
 
 @app.server.route("/assets/<path:path>")
 def static_file(path):
     static_folder = os.path.join(os.getcwd(), "assets")
     return send_from_directory(static_folder, path)
 
+#@app.callback(
+#    Output("initial_user_id", "value"),
+#    Input("user_id", "value"),
+#    State("initial_user_id", "value")
+#)
+#def store_session_state(overwrite_initial_user_id,initial_user_id):
+#    sesh = STATES[initial_user_id]
+#    sesh.user_id = overwrite_initial_user_id
 
 colors = {"background": "#000000", "text": "#39FF14"}
 

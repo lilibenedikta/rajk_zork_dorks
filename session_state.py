@@ -4,22 +4,28 @@ edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index(["FROM", "OPTION_N
 
 class SessionState:
     def __init__(self) -> None:
-        self.n_potions = 0
+        self.user_id = ""
+        self.chapter = 1
         self.current_state = "T_I_1"
+        self.current_number_of_state = 0
         self.onzo_pleaser = 0
         self.bika_nyuszi = 0
         self.szutykos_guru = 0
         self.naplopo_hajcsar = 0
-        self.elszivott_cigik = 0
+        #self.elszivott_cigik = 0
         self.tarot = ""
-        self.user_id = ""
 
     def decide(self, option_num):
         self.current_state = edge_data.loc[(self.current_state, option_num), "TO"]
-        
-    def proc_input(self, in_str):
+        self.onzo_pleaser += edge_data.loc[(self.current_state, option_num), "ONZO_PLEASER"]
+        self.bika_nyuszi += edge_data.loc[(self.current_state, option_num), "BIKA_NYUSZI"]
+        self.bika_nyuszi += edge_data.loc[(self.current_state, option_num), "SZUTYKOS_GURU"]
+        self.bika_nyuszi += edge_data.loc[(self.current_state, option_num), "NAPLOPO_HAJCSAR"]
 
-        if in_str == "Gimme potion":
-            self.n_potions += 1
+    def choice_num(self, click_num):
+        if click_num > 0:
+            self.current_number_of_state += 1
 
-        return f"You have {self.n_potions} potions"
+    def next_chapter(self, n_clicks):
+        if n_clicks:
+            self.chapter += 1
