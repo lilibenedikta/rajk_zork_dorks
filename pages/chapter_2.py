@@ -48,7 +48,7 @@ layout = html.Div(
     Input("submit_gomb_2", "n_clicks"),
     [
         State("option_selector_2", "value"),
-        State("initial_user_id", "value"),
+        State("current_user_id", "value"),
     ],
 )
 def continue_game(n_clicks, selector_value, session_id):
