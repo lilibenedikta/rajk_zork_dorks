@@ -58,24 +58,21 @@ def continue_game(n_clicks, selector_value, session_id):
     next_text = node_data.loc[sesh.current_state, "TEXT_N"]
 
     if sesh.current_state in {
-        "T_I_11112_2113",
-        "T_I_11112_2112",
-        "T_I_11112_2111",
-        "T_I_11112_214",
-        "T_I_11112_22",
-        "T_I_11111_423",
-        "T_I_11111_422",
-        "T_I_11111_421",
-        "T_I_11111_11",
+        "T_III_351",
+        "T_III_451",
+        "T_III_361",
+        "T_III_461",
+        "T_III_352",
+        "T_III_452",
+        "T_III_362",
+        "T_III_462",
     }:
         next_radio = []
         submit_button_style = {"visibility":"hidden"}
-        chapter_2_gomb = {"visibility":"visible"}
+        chapter_2_gomb = {"visibility":"hidden"}
         chapter_3_gomb = {"visibility":"hidden"}
         chapter_4_gomb = {"visibility":"hidden"}
-        finish_button_style = {"visibility":"hidden"}
-
-        # ITT EL KELL MENTENI A SESSIONSTATE-ET (SESH-T)  !!!!!!!!!!!!
+        finish_button_style = {"visibility":"visible"}
  
     else:
         next_radio = edge_data.loc[sesh.current_state].apply(
