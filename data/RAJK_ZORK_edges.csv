@@ -1,101 +1,208 @@
-
-FROM,OPTION_NUM,TO,TEXT_E,ONZO_PLEASER,BIKA_NYUSZI,SZUTYKOS_GURU,NAPLOPO_HAJCSAR
-T_I_1,1,T_I_11,"Lecsekkolod, hogy miért ragad a mellkasod.",0,0,0,0
-T_I_1,2,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
-T_I_1,3,T_I_13,Kutakodsz a dohányod után a zsebeidben.,0,0,0,0
-T_I_11,1,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
-T_I_11,2,T_I_111,Kutakodsz a dohányod után a zsebeidben.,0,0,0,0
-T_I_11,3,T_I_112,Megnézed az ehavi mosóporárakat a Lidl+ alkalmazásodon.,0,0,5,0
-T_I_12,1,T_I_1111,"Körbetapogatózol, majd a cintányér miatt a próbát tippeled. El is indulsz az ajtó felé.",0,0,0,0
-T_I_12,2,T_I_1112,"Szappantasz egy nagyot a levegőbe, majd a megszokott szag alapján a pincét tippeled.",0,0,0,0
-T_I_13,1,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
-T_I_13,2,T_I_131,"Elolvasod a kedvenc vállgazd tankönyv idézetedet, hogy kicsit megnyugtasson.",0,0,0,10
-T_I_13,3,T_I_132,"Körbenézel alaposabban, hogy hol is vagy, lehet-e valahogyan dohányozni.",0,0,0,0
-T_I_13,4,T_I_133,"Kúl, egy rágó.",0,0,0,0
-T_I_111,1,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0
-T_I_111,2,T_I_111_B,"Bosszúságodban kidobnád a zsebeid tartalmát. A gyulát, meg az asztalról a szűrőt azért bemented.",-5,0,0,0
-T_I_111_B,1,T_I_1111,"Elindulsz az ajtó melletti szemeteshez, de átesel a szintetizátoron. Jó, jó, gondolod magadban, majd elcsúszol egy sörösdobozon. Büdösisten faszát jó, dehogy jó, mérgelődsz mostmár. Kidobsz mindent, majd kinyitod az ajtót előtted.",0,0,0,0
-T_I_111_B,2,T_I_1112,"Elindulsz a csocsóasztalt megkerülve a szelektívhez, majd gondosan kiválogatod a papír és fém szemeteket a zsebeidből, meg magad körül. Jól esett szelektálni.",0,0,5,0
-T_I_112,1,T_I_1112,Pár pillantásból felismered mostmár a pincét.,0,0,0,0
-T_I_112,2,T_I_1111,"Izgalmad csökkentében rájössz, hogy ez valójában a próbaterem lesz.",0,0,0,0
-T_I_131,1,T_I_1112,"Boldogságodat tovább tetőzi, hogy a jól megszokott pincében találod magad.",0,0,0,0
-T_I_131,2,T_I_1111,"Tudod te mitől döglik a légy, hamar felismered a próbaterem sajátosságait.",0,0,0,0
-T_I_132,1,T_I_1111,Ilyen jót csak a pórbában lehet hűsölni.,0,0,0,0
-T_I_132,2,T_I_1112,Ilyen jót csak a pincében lehet hűsölni.,0,0,0,0
-T_I_133,1,T_I_1112,"A kedvenc asztalifoci asztalod, és a Bíró Marciék által lent hagyott csocsókupa alapján ez a pince lesz. ",0,0,0,0
-T_I_133,2,T_I_1111,"Mivel ismered a kolit mint a tenyeredet, ráeszmélsz, hogy a próbában vagy.",0,0,0,0
-T_I_1111,1,T_I_11111,Északra indulsz a faajtó felé.,-10,0,0,0
-T_I_1111,2,T_I_11112,Észak-kelet felé indulsz és kinyitod a folyosó végi ajtót.,-10,0,0,0
-T_I_1111,3,T_I_11113,Kinyitod a déli ajtót,-10,0,0,0
-T_I_1111,4,T_I_11114,"Nyugat fele fordulsz és elborzadsz, kicsit kitakarítasz magad után mielőtt kimész.",15,0,0,0
-T_I_1112,1,T_I_11114,Körbenézel a pincében és a látottaktól szíveden úrrá lesz a láz. Kicsit összepakolsz magad után.,15,0,0,0
-T_I_1112,2,T_I_11111,Óvatosan bekopogsz a redroomba.,-10,0,0,0
-T_I_1112,3,T_I_11113,Nagyon óvatosan bekopogsz a kocsmába.,-10,0,0,0
-T_I_1112,4,T_I_11112,Kinézel az udvarra.,-10,0,0,0
-T_I_11111,1,T_I_11111_1,"Már nagyon vágytál egy sima cigire, bele is szippantasz.",0,0,0,0
-T_I_11111,2,T_I_11111_2,Illemtudóan beleszívsz az előző kör joliba.,0,-5,0,0
-T_I_11111,3,T_I_11111_3,"A buszt már úgyis lekésted, jól esne egy iqos, elfogadod.",0,0,0,0
-T_I_11111,4,T_I_11111_4,Kioktatod a beltéren dohányzókat.,-5,0,0,0
-T_I_11111,5,T_I_11111_5,Hümmögve kihátrálsz a teremből.,0,5,0,0
-T_I_11111,6,T_I_11111_6,"Kedvesen visszautasítod, elmondod, hogy sietsz a nyári táborba, és nem akarsz ennyit maradni.",5,0,0,0
-T_I_11112,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,-5,-5,0,0
-T_I_11112,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
-T_I_11113,1,T_I_11113_1,Segítesz neki.,15,0,0,0
-T_I_11113,2,T_I_11113_2,Taktikai püré.,0,0,0,0
-T_I_11113,3,T_I_11113_3,"Kérsz tőle egy dohányt először, biztos, ami biztos.",-10,0,0,0
-T_I_11114,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,-5,0,0,0
-T_I_11114,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
-T_I_11111_1,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0
-T_I_11111_1,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0
-T_I_11111_2,1,T_I_11111_21,"""Az a kedvenc második részem"" felkiálltással követed a társaidat.",10,0,0,0
-T_I_11111_2,2,T_I_11111_22,"""Bocsi de most muncholnék a másodikon."" jeligére elindulsz felfelé.",-10,0,0,0
-T_I_11111_3,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0
-T_I_11111_3,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0
-T_I_11111_4,1,T_I_11111_41,A laptop mellett ártatlanul lapuló - valszeg nagy sietségben ott hagyott - dohánytermékből cápázol egyet.,-10,0,0,0
-T_I_11111_4,2,T_I_11111_42,"Elindulsz egyedül a nagy útnak, két átszállás és röpke 5 óra alatt simán oda tudsz buszozni.",-10,0,0,0
-T_I_11111_4,3,T_I_11111_43,"Ráírsz a laptopon az UF-re, hogy itt van-e a koliban még, szívesen stoppolnál vele.",15,0,0,0
-T_I_11111_5,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,-5,0,0,0
-T_I_11111_5,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
-T_I_11111_6,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0
-T_I_11111_6,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0
-T_I_11112_1,1,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
-T_I_11112_2,1,T_I_11112_21,"Ha rajkos kezdéssel lesz indulás, akkor tuti lekésed a 'mesélt. Elsunnyogsz egyedül.",0,0,0,0
-T_I_11112_2,2,T_I_11111_42,"Nem mehet mindenki Bátor Adrival. Azt diktálja az illem, hogy megkérdezel egy fiatalt stoppra te is.",0,0,0,0
-T_I_11112_2,3,T_I_11112_22,"A pingpongosok laissez faire hozzáállása magával vonz, őket kérdezed meg.",0,0,0,0
-T_I_11113_1,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0
-T_I_11113_1,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0
-T_I_11113_2,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,-5,0,0,0
-T_I_11113_2,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
-T_I_11113_3,1,T_I_11113_31,"""Nos?"" kérded.",0,0,0,0
-T_I_11113_3,2,T_I_11113_32,"Meg sem szólalsz, tartod a szemkontaktust.",0,-10,0,0
-T_I_11113_32,1,T_I_11112_1,"Már nagyon dohányoznád, ezért kettesével szeded a fokokat.",0,0,-5,0
-T_I_11113_32,2,T_I_11112_2,"Szűrő va na szádban, óvatosan mész fel a lépcsőn.",0,0,0,0
-T_I_11111_12,1,T_I_11112_1,Felsietsz a lépcsőn.,0,0,0,0
-T_I_11111_12,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,0,0,0
-T_I_11111_41,1,T_I_11111_411,"Elkélne egy zuhany, mész is letusolni.",0,0,0,0
-T_I_11111_41,2,T_I_11111_42,Elindulsz egyedül.,0,0,0,0
-T_I_11111_411,1,T_I_11111_4111,"Jöhet a kövi lépcső, jól esne egy kávé.",0,0,0,0
-T_I_11111_411,2,T_I_11111_42,Elindulsz egyedül.,0,0,0,0
-T_I_11111_4111,1,T_I_11111_41111,Elfogadod a hívást.,0,0,0,0
-T_I_11111_4111,2,T_I_11111_42,Összeszorított farpofákkal elindulsz egyedül.,0,0,0,0
-T_I_11111_41111,1,T_I_11111_411111,Ha már itt hagyta valaki...,0,0,0,0
-T_I_11111_41111,2,T_I_11111_42,Elindulsz egyedül.,0,0,0,0
-T_I_11111_411111,1,T_I_11111_421,Kényelmetlenkedve de elfogadsz egy Nógrádi Ropogóst és egy fél deci Uniicumot.,0,0,0,0
-T_I_11111_411111,2,T_I_11111_422,Bedugod a fülhallgatódat a füledbe.,0,0,0,0
-T_I_11111_411111,3,T_I_11111_423,Elkezdesz heatsezgetni.,0,0,0,0
-T_I_11111_42,1,T_I_11111_421,Kényelmetlenkedve de elfogadsz egy Nógrádi Ropogóst és egy fél deci Uniicumot.,20,0,0,0
-T_I_11111_42,2,T_I_11111_422,Bedugod a fülhallgatódat a füledbe.,-5,0,0,0
-T_I_11111_42,3,T_I_11111_423,Elkezdesz heatsezgetni.,-20,0,0,0
-T_I_11112_21,1,T_I_11112_211,Kényelmi szempontból az MCC-s minibuszt választod.,,,,
-T_I_11112_21,2,T_I_11112_212,Eis Kaffee kedvelőként nem kérdés számodra melyikhez indulsz el.,,,,
-T_I_11112_21,3,T_I_11112_213,"Kikövetkezteted, hogy mivel nagyon vidékre mentek, ahol sok a ló, a lovaskocsi lesz számotokra a megoldás. Elindulsz felé.",,,,
-T_I_11112_21,4,T_I_11112_214,Megkérdezed az UF-et ő mit gondol.,,,,
-T_I_11112_211,1,T_I_11112_2111,"""De jó, jeszkesek!"" mondod oda a melletted álló UF-nek. Elindulsz feléjük.",,,,
-T_I_11112_211,2,T_I_11112_2112,"Lenézően megcsóválod a fejed. Tudod, hogy te jobb ember vagy, hiszen neked más a zenei ízlésed. Megnézed magadnak a lovas kocsit inkább.",,,,
-T_I_11112_211,3,T_I_11112_2113,Nyugdíjasokat megszégyenítő örömmel a hangodban eliramodsz a limuzin felé.,,,,
-T_I_11112_213,1,T_I_11112_2111,"""De jó, jeszkesek!"" mondod oda a melletted álló UF-nek. Elindulsz feléjük.",,,,
-T_I_11112_213,2,T_I_11112_2112,"Lenézően megcsóválod a fejed. Tudod, hogy te jobb ember vagy, hiszen neked más a zenei ízlésed. Megnézed magadnak a lovas kocsit inkább.",,,,
-T_I_11112_213,3,T_I_11112_2113,Nyugdíjasokat megszégyenítő örömmel a hangodban eliramodsz a limuzin felé.,,,,
-T_I_11111_43,1,T_I_11112_211,Kényelmi szempontból az MCC-s minibuszt választod.,,,,
-T_I_11111_43,2,T_I_11112_212,Eis Kaffee kedvelőként nem kérdés számodra melyikhez indulsz el.,,,,
-T_I_11111_43,3,T_I_11112_213,"Kikövetkezteted, hogy mivel nagyon vidékre mentek, ahol sok a ló, a lovaskocsi lesz számotokra a megoldás. Elindulsz felé.",,,,
+FROM,OPTION_NUM,TO,TEXT_E,ONZO_PLEASER,BIKA_NYUSZI,SZUTYKOS_GURU,NAPLOPO_HAJCSAR,
+T_I_1,1,T_I_11,"Lecsekkolod, hogy miért ragad a mellkasod.",0,0,5,0,not end
+T_I_1,2,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0,not end
+T_I_1,3,T_I_13,Kutakodsz a dohányod után a zsebeidben.,0,0,0,0,not end
+T_I_11,1,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0,not end
+T_I_11,2,T_I_111,Kutakodsz a dohányod után a zsebeidben.,0,0,0,0,not end
+T_I_11,3,T_I_112,Megnézed az ehavi mosóporárakat a Lidl+ alkalmazásodon.,0,0,5,0,not end
+T_I_12,1,T_I_1111,"Körbetapogatózol, majd a cintányér miatt a próbát tippeled. El is indulsz az ajtó felé.",0,0,0,0,not end
+T_I_12,2,T_I_1112,"Szappantasz egy nagyot a levegőbe, majd a megszokott szag alapján a pincét tippeled.",0,0,0,0,not end
+T_I_13,1,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0,not end
+T_I_13,2,T_I_131,"Elolvasod a kedvenc vállgazd tankönyv idézetedet, hogy kicsit megnyugtasson.",0,0,0,10,not end
+T_I_13,3,T_I_132,"Körbenézel alaposabban, hogy hol is vagy, lehet-e valahogyan dohányozni.",0,0,-5,0,not end
+T_I_13,4,T_I_133,"Kúl, egy rágó.",0,0,0,0,not end
+T_I_111,1,T_I_12,Megnézed az időt a telefonodon.,0,0,0,0,not end
+T_I_111,2,T_I_111_B,"Bosszúságodban kidobnád a zsebeid tartalmát. A gyulát, meg az asztalról a szűrőt azért bemented.",-5,0,0,0,not end
+T_I_111_B,1,T_I_1111,"Elindulsz az ajtó melletti szemeteshez, de átesel a szintetizátoron. Jó, jó, gondolod magadban, majd elcsúszol egy sörösdobozon. Büdösisten faszát jó, dehogy jó, mérgelődsz mostmár. Kidobsz mindent, majd kinyitod az ajtót előtted.",0,0,0,0,not end
+T_I_111_B,2,T_I_1112,"Elindulsz a csocsóasztalt megkerülve a szelektívhez, majd gondosan kiválogatod a papír és fém szemeteket a zsebeidből, meg úgy magad körül. Jól esett szelektálni.",0,0,5,0,not end
+T_I_112,1,T_I_1112,Pár pillantásból felismered mostmár a pincét.,0,0,0,0,not end
+T_I_112,2,T_I_1111,"Izgalmad csökkentében rájössz, hogy ez valójában a próbaterem lesz.",0,0,0,0,not end
+T_I_131,1,T_I_1112,"Boldogságodat tovább tetőzi, hogy a jól megszokott pincében találod magad.",0,0,0,0,not end
+T_I_131,2,T_I_1111,"Tudod te mitől döglik a légy, hamar felismered a próbaterem sajátosságait.",0,0,0,0,not end
+T_I_132,1,T_I_1111,Ilyen jót csak a pórbában lehet hűsölni.,0,0,0,0,not end
+T_I_132,2,T_I_1112,Ilyen jót csak a pincében lehet hűsölni.,0,0,0,0,not end
+T_I_133,1,T_I_1112,"A kedvenc asztalifoci asztalod, és a Bíró Marciék által lent hagyott csocsókupa alapján ez a pince lesz. ",0,0,0,0,not end
+T_I_133,2,T_I_1111,"Mivel ismered a kolit mint a tenyeredet, ráeszmélsz, hogy a próbában vagy.",0,0,0,0,not end
+T_I_1111,1,T_I_11111,Északra indulsz a faajtó felé.,-10,0,0,0,not end
+T_I_1111,2,T_I_11112,Észak-kelet felé indulsz és kinyitod a folyosó végi ajtót.,-10,0,0,0,not end
+T_I_1111,3,T_I_11113,Kinyitod a déli ajtót,-10,0,0,0,not end
+T_I_1111,4,T_I_11114,"Nyugat fele fordulsz és elborzadsz, kicsit kitakarítasz magad után mielőtt kimész.",15,0,0,0,not end
+T_I_1112,1,T_I_11114,Körbenézel a pincében és a látottaktól szíveden úrrá lesz a láz. Kicsit összepakolsz magad után.,15,0,0,0,not end
+T_I_1112,2,T_I_11111,Óvatosan bekopogsz a redroomba.,-10,0,0,0,not end
+T_I_1112,3,T_I_11113,Nagyon óvatosan bekopogsz a kocsmába.,-10,0,0,0,not end
+T_I_1112,4,T_I_11112,Kinézel az udvarra.,-10,0,0,0,not end
+T_I_11111,1,T_I_11111_1,"Már nagyon vágytál egy sima cigire, bele is szippantasz.",0,0,-5,0,not end
+T_I_11111,2,T_I_11111_2,Illemtudóan beleszívsz az előző kör joliba.,0,-5,-5,0,not end
+T_I_11111,3,T_I_11111_3,"A buszt már úgyis lekésted, jól esne egy iqos, elfogadod.",0,0,0,0,not end
+T_I_11111,4,T_I_11111_4,Kioktatod a beltéren dohányzókat.,-5,0,10,0,not end
+T_I_11111,5,T_I_11111_5,Hümmögve kihátrálsz a teremből.,0,5,0,0,not end
+T_I_11111,6,T_I_11111_6,"Kedvesen visszautasítod, elmondod, hogy sietsz a nyári táborba, és nem akarsz ennyit maradni.",5,0,0,0,not end
+T_I_11112,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,0,-5,0,0,not end
+T_I_11112,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,5,0,0,not end
+T_I_11113,1,T_I_11113_1,Segítesz neki.,15,0,0,0,not end
+T_I_11113,2,T_I_11113_2,Taktikai püré.,0,0,-5,0,not end
+T_I_11113,3,T_I_11113_3,"Kérsz tőle egy dohányt először, biztos, ami biztos.",-10,0,0,0,not end
+T_I_11114,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,0,-5,0,0,not end
+T_I_11114,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,5,0,0,not end
+T_I_11111_1,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0,not end
+T_I_11111_1,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0,not end
+T_I_11111_2,1,T_I_11111_21,"""Az a kedvenc második részem"" felkiálltással követed a társaidat.",10,0,0,-5,not end
+T_I_11111_2,2,T_I_11111_22,"""Bocsi de most muncholnék a másodikon."" jeligére elindulsz felfelé.",-10,0,0,-5,not end
+T_I_11111_21,1,T_I_11111_41,A laptop mellett ártatlanul lapuló - valszeg nagy sietségben ott hagyott - dohánytermékből cápázol egyet.,-5,0,-5,0,not end
+T_I_11111_21,2,T_I_11111_42,"Elindulsz egyedül a nagy útnak, két átszállás és röpke 5 óra alatt simán oda tudsz buszozni.",-10,0,0,0,not end
+T_I_11111_21,3,T_I_11111_43,"Ráírsz a laptopon az UF-re, hogy itt van-e a koliban még, szívesen stoppolnál vele.",15,0,0,0,not end
+T_I_11111_22,1,T_I_11111_41,A laptop mellett ártatlanul lapuló - valszeg nagy sietségben ott hagyott - dohánytermékből cápázol egyet.,-5,0,-5,0,not end
+T_I_11111_22,2,T_I_11111_42,"Elindulsz egyedül a nagy útnak, két átszállás és röpke 5 óra alatt simán oda tudsz buszozni.",-10,0,0,0,not end
+T_I_11111_22,3,T_I_11111_43,"Ráírsz a laptopon az UF-re, hogy itt van-e a koliban még, szívesen stoppolnál vele.",15,0,0,0,not end
+T_I_11111_3,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0,not end
+T_I_11111_3,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0,not end
+T_I_11111_4,1,T_I_11111_41,A laptop mellett ártatlanul lapuló - valszeg nagy sietségben ott hagyott - dohánytermékből cápázol egyet.,-5,0,-5,0,not end
+T_I_11111_4,2,T_I_11111_42,"Elindulsz egyedül a nagy útnak, két átszállás és röpke 5 óra alatt simán oda tudsz buszozni.",-10,0,0,0,not end
+T_I_11111_4,3,T_I_11111_43,"Ráírsz a laptopon az UF-re, hogy itt van-e a koliban még, szívesen stoppolnál vele.",15,0,0,0,not end
+T_I_11111_5,1,T_I_11112_1,Hangosan énekelve felrongyolsz a lépcsőn.,-5,-5,0,0,not end
+T_I_11111_5,2,T_I_11112_2,Óvatosan felmész a lépcsőn.,0,5,0,0,not end
+T_I_11111_6,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0,not end
+T_I_11111_6,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0,not end
+T_I_11112_1,1,T_I_11112_11,Óvatosan felmész a lépcsőn.,0,5,0,0,not end
+T_I_11112_1,2,T_I_11112_2,Óvatosan mész fel a lépcsőn.,0,5,0,0,not end
+T_I_11112_11,1,T_I_11111_42,"Ha rajkos kezdéssel lesz indulás, akkor tuti lekésed a 'mesélt. Elsunnyogsz egyedül.",-5,0,0,0,not end
+T_I_11112_11,2,T_I_11112_21,"Nem mehet mindenki Bátor Adrival. Azt diktálja az illem, hogy megkérdezel egy fiatalt stoppra te is.",15,0,0,0,not end
+T_I_11112_11,3,T_I_11112_22,"A pingpongosok laissez faire hozzáállása magával vonz, őket kérdezed meg.",0,0,0,-5,not end
+T_I_11112_2,1,T_I_11111_42,"Ha rajkos kezdéssel lesz indulás, akkor tuti lekésed a 'mesélt. Elsunnyogsz egyedül.",-5,0,0,0,not end
+T_I_11112_2,2,T_I_11112_21,"Nem mehet mindenki Bátor Adrival. Azt diktálja az illem, hogy megkérdezel egy fiatalt stoppra te is.",15,0,0,0,not end
+T_I_11112_2,3,T_I_11112_22,"A pingpongosok laissez faire hozzáállása magával vonz, őket kérdezed meg.",0,0,0,-5,not end
+T_I_11113_1,1,T_I_11111_11,"Elfogadod a lehetőséget, közösen utazni mindig sokkal hangulatosabb.",0,0,0,0,not end
+T_I_11113_1,2,T_I_11111_12,"Visszautasítod a lehetőséget, mivan ha csak sokára indulnak.",0,0,0,0,not end
+T_I_11113_2,1,T_I_11113_21,Hangosan énekelve felrongyolsz a lépcsőn.,-5,-5,0,0,not end
+T_I_11113_2,2,T_I_11112_3,Óvatosan felmész a lépcsőn.,0,5,0,0,not end
+T_I_11113_3,1,T_I_11113_31,"""Nos?"" kérded.",0,-5,0,0,not end
+T_I_11113_3,2,T_I_11113_32,"Meg sem szólalsz, tartod a szemkontaktust.",0,-10,0,0,not end
+T_I_11113_21,1,T_I_11113_211,Óvatosan felmész a lépcsőn.,0,5,0,0,not end
+T_I_11113_21,2,T_I_11112_3,Óvatosan mész fel a lépcsőn.,0,5,0,0,not end
+T_I_11113_211,1,T_I_11111_41,A laptop mellett ártatlanul lapuló - valszeg nagy sietségben ott hagyott - dohánytermékből cápázol egyet.,-5,0,-5,0,not end
+T_I_11113_211,2,T_I_11111_42,"Elindulsz egyedül a nagy útnak, két átszállás és röpke 5 óra alatt simán oda tudsz buszozni.",-10,0,0,0,not end
+T_I_11113_211,3,T_I_11111_43,"Ráírsz a laptopon az UF-re, hogy itt van-e a koliban még, szívesen stoppolnál vele.",15,0,0,0,not end
+T_I_11112_3,1,T_I_11111_41,A laptop mellett ártatlanul lapuló - valszeg nagy sietségben ott hagyott - dohánytermékből cápázol egyet.,-5,0,-5,0,not end
+T_I_11112_3,2,T_I_11111_42,"Elindulsz egyedül a nagy útnak, két átszállás és röpke 5 óra alatt simán oda tudsz buszozni.",-10,0,0,0,not end
+T_I_11112_3,3,T_I_11111_43,"Ráírsz a laptopon az UF-re, hogy itt van-e a koliban még, szívesen stoppolnál vele.",15,0,0,0,not end
+T_I_11113_31,1,T_I_11113_21,"Már nagyon dohányoznád, ezért kettesével szeded a fokokat.",0,-5,0,0,not end
+T_I_11113_31,2,T_I_11112_3,"Szűrő va na szádban, óvatosan mész fel a lépcsőn.",0,0,0,0,not end
+T_I_11113_32,1,T_I_11113_21,"Már nagyon dohányoznád, ezért kettesével szeded a fokokat.",0,-5,0,0,not end
+T_I_11113_32,2,T_I_11112_3,"Szűrő va na szádban, óvatosan mész fel a lépcsőn.",0,0,0,0,not end
+T_I_11111_12,1,T_I_11113_21,Felsietsz a lépcsőn.,-5,-5,0,0,not end
+T_I_11111_12,2,T_I_11112_3,Óvatosan felmész a lépcsőn.,0,5,0,0,not end
+T_I_11111_41,1,T_I_11111_411,"Elkélne egy zuhany, mész is letusolni.",0,0,0,-5,not end
+T_I_11111_41,2,T_I_11111_42,Elindulsz egyedül.,0,0,0,0,not end
+T_I_11111_411,1,T_I_11111_4111,"Jöhet a kövi lépcső, jól esne egy kávé.",0,0,0,-5,not end
+T_I_11111_411,2,T_I_11111_42,Elindulsz egyedül.,0,0,0,0,not end
+T_I_11111_4111,1,T_I_11111_41111,Elfogadod a hívást.,0,0,0,0,not end
+T_I_11111_4111,2,T_I_11111_42,Összeszorított farpofákkal elindulsz egyedül.,0,0,0,0,not end
+T_I_11111_41111,1,T_I_11111_411111,Ha már itt hagyta valaki...,-5,0,-5,-5,not end
+T_I_11111_41111,2,T_I_11111_42,Elindulsz egyedül.,0,0,0,0,not end
+T_I_11111_411111,1,T_I_11111_421,Kényelmetlenkedve de elfogadsz egy Nógrádi Ropogóst és egy fél deci Uniicumot.,20,0,0,0,not end
+T_I_11111_411111,2,T_I_11111_422,Bedugod a fülhallgatódat a füledbe.,-5,-5,0,0,not end
+T_I_11111_411111,3,T_I_11111_423,Elkezdesz heatsezgetni.,-20,-5,0,0,not end
+T_I_11111_42,1,T_I_11111_421,Kényelmetlenkedve de elfogadsz egy Nógrádi Ropogóst és egy fél deci Uniicumot.,20,0,0,0,not end
+T_I_11111_42,2,T_I_11111_422,Bedugod a fülhallgatódat a füledbe.,-5,-5,0,0,not end
+T_I_11111_42,3,T_I_11111_423,Elkezdesz heatsezgetni.,-20,-5,0,0,not end
+T_I_11112_21,1,T_I_11112_211,Kényelmi szempontból az MCC-s minibuszt választod.,0,0,0,-10,not end
+T_I_11112_21,2,T_I_11112_212,Eis Kaffee kedvelőként nem kérdés számodra melyikhez indulsz el.,0,0,0,0,not end
+T_I_11112_21,3,T_I_11112_213,"Kikövetkezteted, hogy mivel nagyon vidékre mentek, ahol sok a ló, a lovaskocsi lesz számotokra a megoldás. Elindulsz felé.",0,0,0,5,not end
+T_I_11112_21,4,T_I_11112_214,Megkérdezed az UF-et ő mit gondol.,5,0,0,0,not end
+T_I_11112_211,1,T_I_11112_2111,"""De jó, jeszkesek!"" mondod oda a melletted álló UF-nek. Elindulsz feléjük.",0,0,0,0,not end
+T_I_11112_211,2,T_I_11112_2112,"Lenézően megcsóválod a fejed. Tudod, hogy te jobb ember vagy, hiszen neked más a zenei ízlésed. Megnézed magadnak a lovas kocsit inkább.",-5,0,10,0,not end
+T_I_11112_211,3,T_I_11112_2113,Nyugdíjasokat megszégyenítő örömmel a hangodban eliramodsz a limuzin felé.,0,0,0,0,not end
+T_I_11112_213,1,T_I_11112_2111,"""De jó, jeszkesek!"" mondod oda a melletted álló UF-nek. Elindulsz feléjük.",0,0,0,0,not end
+T_I_11112_213,2,T_I_11112_2112,"Lenézően megcsóválod a fejed. Tudod, hogy te jobb ember vagy, hiszen neked más a zenei ízlésed. Megnézed magadnak a lovas kocsit inkább.",-5,0,10,0,not end
+T_I_11112_213,3,T_I_11112_2113,Nyugdíjasokat megszégyenítő örömmel a hangodban eliramodsz a limuzin felé.,0,0,0,0,not end
+T_I_11111_43,1,T_I_11112_211,Kényelmi szempontból az MCC-s minibuszt választod.,0,0,0,-10,not end
+T_I_11111_43,2,T_I_11112_212,Eis Kaffee kedvelőként nem kérdés számodra melyikhez indulsz el.,0,0,0,0,not end
+T_I_11111_43,3,T_I_11112_213,"Kikövetkezteted, hogy mivel nagyon vidékre mentek, ahol sok a ló, a lovaskocsi lesz számotokra a megoldás. Elindulsz felé.",0,0,0,5,not end
+T_I_11111_11,1,T_II_0,VÉGE,0,0,0,0,not end
+T_I_11112_212,1,T_II_0,VÉGE,0,0,0,0,not end
+T_I_11112_214,1,T_II_0,VÉGE,0,0,0,0,not end
+T_I_11112_2113,1,T_II_0,VÉGE,0,0,0,0,not end
+T_I_11112_2111,2,T_II_0,VÉGE,0,0,0,0,not end
+T_I_11112_22,2,T_II_0,VÉGE,0,0,0,0,not end
+T_I_11111_422,2,T_II_0,VÉGE,0,0,0,0,not end
+T_I_11112_2112,3,T_II_0,VÉGE,0,0,0,0,not end
+T_I_11111_423,3,T_II_0,VÉGE,0,0,0,0,not end
+T_I_11111_421,3,T_II_0,VÉGE,0,0,0,0,not end
+T_II_0,1,T_II_1_jo,VÉGE,0,0,0,0,not end
+T_II_0,2,T_II_1_kozepes,VÉGE,0,0,0,0,not end
+T_II_0,3,T_II_1_rossz,VÉGE,0,0,0,0,not end
+T_II_1_jo,1,T_II_11,"A szüleid értelmes embert neveltek, húst kell enni. Vajas, húsos zsömlével kezded az őszinte napot.",0,0,0,0,not end
+T_II_1_jo,2,T_II_12,Egy ilyen jó regelt már csak egy lekváros zsömi tudna tetőzni.,0,0,0,0,not end
+T_II_1_jo,3,T_II_13,Egy reggeli legyen tápláló. 4 dzsemes-húsos zsemlével indítod a napot,0,0,10,0,not end
+T_II_1_jo,4,T_II_14,Visszamész a táskádat megvizgsálni.,0,0,0,0,not end
+T_II_1_kozepes,1,T_II_11,"A szüleid értelmes embert neveltek, húst kell enni. Vajas, húsos zsömlével kezded az őszinte napot.",0,0,0,0,not end
+T_II_1_kozepes,2,T_II_12,Egy ilyen jó regelt már csak egy lekváros zsömi tudna tetőzni.,0,0,0,0,not end
+T_II_1_kozepes,3,T_II_13,Egy reggeli legyen tápláló. 4 dzsemes-húsos zsemlével indítod a napot,0,0,10,0,not end
+T_II_1_rossz,1,T_II_31,"A szénhidrátra mennének rá szerinted, ezért te a húsra mész rá.",0,0,0,0,not end
+T_II_1_rossz,2,T_II_32,"Ezek a férfiak nem növényevéstől nőttek ilyen nagyra, megcélzod a zsemléket.",0,0,0,0,not end
+T_II_11,1,T_II_111,"Első az évfolyam, megindulsz a skacok felé.",0,0,0,0,not end
+T_II_11,2,T_II_112,Alig párszor tudsz elszívni cigit a spanoddal amíg mindketten jeszkesek vagytok. Kapva kapsz az alkalmon.,-5,0,-5,-5,not end
+T_II_12,1,T_II_111,"Gyorsan megfontolod, és már vissza is rakod a szűrőt a helyére.",5,0,0,0,not end
+T_II_12,2,T_II_112,"Töprengesz még rajta kicsit, de a kezed már megtekert közebn egy cigarettát. Na azt már nem kéne kidobni, elballagsz pöfékelni az ebédlő mellé.",-5,0,-5,-5,not end
+T_II_13,1,T_II_111,"Bármelyik másodercben megjöhetnek, nincs most itt a cigikének az ideje.",0,0,0,0,not end
+T_II_13,2,T_II_112,Golden opportunity.,0,0,-5,5,not end
+T_II_14,1,T_II_141,"Bedugod a fülhallgatódat a füledbe, és úgy teszel, mintha telefonálnál.",-10,0,0,-5,not end
+T_II_14,2,T_II_142,"Asszertívan megállítod, és mivel rendes bizottsági tag vagy, lenézően megkérded melyik a te faházad vagy mid. ",0,10,0,5,not end
+T_II_31,1,T_II_141,"Bedugod a fülhallgatódat a füledbe, és úgy teszel, mintha telefonálnál.",-10,0,0,-5,not end
+T_II_31,2,T_II_142,"Asszertívan megállítod, és mivel rendes bizottsági tag vagy, lenézően megkérded melyik a te faházad vagy mid. ",0,10,0,5,not end
+T_II_32,1,T_II_141,"Bedugod a fülhallgatódat a füledbe, és úgy teszel, mintha telefonálnál.",-10,0,0,-5,not end
+T_II_32,2,T_II_142,"Asszertívan megállítod, és mivel rendes bizottsági tag vagy, lenézően megkérded melyik a te faházad vagy mid. ",0,10,0,5,not end
+T_II_111,1,T_II_1111,Elsőnek.,0,0,0,0,not end
+T_II_111,2,T_II_1112,Tizenegyediknek.,0,0,0,0,not end
+T_II_112,1,T_II_1111,Elsőnek.,0,0,0,0,not end
+T_II_112,2,T_II_1112,Tizenegyediknek.,0,0,0,0,not end
+T_II_141,1,T_II_1411,"Ihh, egy dzsemes-húsos szendvicsért mit meg nem adnál most. Azért rányúlsz a chipsre",0,0,0,0,not end
+T_II_141,2,T_II_1412,Rákezdesz egy cigire,0,0,-5,-5,not end
+T_II_142,1,T_II_1411,Megfogod és megfújogatod lágyan a pizzát.,0,0,0,0,not end
+T_II_142,2,T_II_1412,Rákezdesz egy cigire,0,0,-5,-5,not end
+T_II_1411,1,T_II_1111,Elsőnek.,0,0,0,0,not end
+T_II_1412,2,T_II_1112,Tizenegyediknek.,0,0,0,0,not end
+T_II_1111,1,T_II_11111,"Igazságtalan, hogy nem választottak meg Könyvtár felelősnek és TAXI tagnak. Az életed rossz kanyarokat vett rajtad kívülálló emberek miatt.",-5,0,0,15,not end
+T_II_1111,2,T_II_11112,"Úgy döntesz megbocsátasz az évfolyamtársaidnak a téged ért sérelmek kapcsán. Nem nyomattak elegen eleget, azért ezt érezteted velük.",0,0,0,5,not end
+T_II_1112,1,T_II_11111,"Igazságtalan, hogy nem választottak meg Könyvtár felelősnek és TAXI tagnak. Az életed rossz kanyarokat vett rajtad kívülálló emberek miatt.",-5,0,0,15,not end
+T_II_1112,2,T_II_11112,"Úgy döntesz megbocsátasz az évfolyamtársaidnak a téged ért sérelmek kapcsán. Nem nyomattak elegen eleget, azért ezt érezteted velük.",0,0,0,5,not end
+T_II_11111,1,T_II_11111_1,A júniusi lánynappal kezdesz.,0,0,0,0,not end
+T_II_11111,2,T_II_11111_2,Az októberi lánynappal kezdesz.,0,0,0,0,not end
+T_II_11112,1,T_II_11111_1,A júniusi lánynappal kezdesz.,0,0,0,0,not end
+T_II_11112,2,T_II_11111_2,Az októberi lánynappal kezdesz.,0,0,0,0,not end
+T_II_11111_1,1,T_II_11111_11,"Mindenki tévedhet, így még jobban is sült el. Nincs miért haragudni magadra.",0,0,0,-5,not end
+T_II_11111_1,2,T_II_11111_12,"Sokan tévedhetnek, de téged nem azért választottak ebbe a fontos intézményi pozícióba, hogy elhanyagold az egyértelmű kötelességeidet.",0,0,0,10,not end
+T_II_11111_2,1,T_II_11111_21,"Na de kérném ez itten, intimus magánügy. Senkinek semmit, ez nem tartozik ezekre az emberekre.",-5,0,0,0,not end
+T_II_11111_2,2,T_II_11111_22,"A kavarást nem lehet elmondani, azt visszük a sírig vagy amíg a józan est után éjfélkor elkezdünk masszívan vedelni. De az ex-könyvtárass évfolyamtársad megérdemli az igazságot.",-5,0,0,5,not end
+T_II_11111_2,3,T_II_11111_23,"Az intézményi karriered vesztét okozhatná, ha kiderülne, hogy ezek után még pofátlanul el is indultál könyvtárosnak. Az UF-ós sztorival dobsz egy csontot meg jól is esne kibeszélni.",0,0,0,10,not end
+T_II_11111_2,4,T_II_11111_24,Mindent elmondasz. Mindent. Nincs kivétel.,0,0,0,0,not end
+T_II_11111_11,1,T_II_11111_111,"Na de kérném ez itten, intimus magánügy. Senkinek semmit, ez nem tartozik ezekre az emberekre.",-5,0,0,0,not end
+T_II_11111_11,2,T_II_11111_112,"A kavarást nem lehet elmondani, azt visszük a sírig vagy amíg a józan est után éjfélkor elkezdünk masszívan vedelni. De az ex-könyvtárass évfolyamtársad megérdemli az igazságot.",-5,0,0,5,not end
+T_II_11111_11,3,T_II_11111_113,"Az intézményi karriered vesztét okozhatná, ha kiderülne, hogy ezek után még pofátlanul el is indultál könyvtárosnak. Az UF-ós sztorival dobsz egy csontot meg jól is esne kibeszélni.",0,0,0,10,not end
+T_II_11111_11,4,T_II_11111_114,Mindent elmondasz. Mindent. Nincs kivétel.,0,0,0,0,not end
+T_II_11111_12,1,T_II_11111_111,"Na de kérném ez itten, intimus magánügy. Senkinek semmit, ez nem tartozik ezekre az emberekre.",-5,0,0,0,not end
+T_II_11111_12,2,T_II_11111_112,"A kavarást nem lehet elmondani, azt visszük a sírig vagy amíg a józan est után éjfélkor elkezdünk masszívan vedelni. De az ex-könyvtárass évfolyamtársad megérdemli az igazságot.",-5,0,0,5,not end
+T_II_11111_12,3,T_II_11111_113,"Az intézményi karriered vesztét okozhatná, ha kiderülne, hogy ezek után még pofátlanul el is indultál könyvtárosnak. Az UF-ós sztorival dobsz egy csontot meg jól is esne kibeszélni.",0,0,0,10,not end
+T_II_11111_12,4,T_II_11111_114,Mindent elmondasz. Mindent. Nincs kivétel.,0,0,0,0,not end
+T_II_11111_21,1,T_II_11111_211,"Mindenki tévedhet, így még jobban is sült el. Nincs miért haragudni magadra.",0,0,0,-5,not end
+T_II_11111_21,2,T_II_11111_212,"Sokan tévedhetnek, de téged nem azért választottak ebbe a fontos intézményi pozícióba, hogy elhanyagold az egyértelmű kötelességeidet.",0,0,0,10,not end
+T_II_11111_22,1,T_II_11111_211,"Mindenki tévedhet, így még jobban is sült el. Nincs miért haragudni magadra.",0,0,0,-5,not end
+T_II_11111_22,2,T_II_11111_212,"Sokan tévedhetnek, de téged nem azért választottak ebbe a fontos intézményi pozícióba, hogy elhanyagold az egyértelmű kötelességeidet.",0,0,0,10,not end
+T_II_11111_23,1,T_II_11111_211,"Mindenki tévedhet, így még jobban is sült el. Nincs miért haragudni magadra.",0,0,0,-5,not end
+T_II_11111_23,2,T_II_11111_212,"Sokan tévedhetnek, de téged nem azért választottak ebbe a fontos intézményi pozícióba, hogy elhanyagold az egyértelmű kötelességeidet.",0,0,0,10,not end
+T_II_11111_24,1,T_II_11111_211,"Mindenki tévedhet, így még jobban is sült el. Nincs miért haragudni magadra.",0,0,0,-5,not end
+T_II_11111_24,2,T_II_11111_212,"Sokan tévedhetnek, de téged nem azért választottak ebbe a fontos intézményi pozícióba, hogy elhanyagold az egyértelmű kötelességeidet.",0,0,0,10,not end
+T_II_11111_111,1,T_II_11111_1111,"Csak 3 Lecture-ön voltál ebben a tanévben, ezért piszkáltak is a nagyobbak. De mind a 4 A kurzuson írtál 1 beszámolót, melyból csak 1 került újraírásra, a többi automata átment. Műhelytagságodat a vezető szerep jellemezte. Az látszik, hogy nagyon büszke vagy magadra, de elég öntelten foglalod össze a mondanivalódat.",0,0,0,15,not end
+T_II_11111_111,2,T_II_11111_1112,"Volt 2 A kurzusod, amiből az egyik elég alibi is volt. Műhelytagságodat a teljes passzívitás jellemezte. De ultibajnokságon 3-ak lettetek a csapatoddal, szóval nem a képességekkel, hanem a motivációval van baj. Lecture-ön nem voltál egyen sem, mert annál azért értékesebb az időd.",0,0,0,-10,not end
+T_II_11111_112,1,T_II_11111_1111,"Csak 3 Lecture-ön voltál ebben a tanévben, ezért piszkáltak is a nagyobbak. De mind a 4 A kurzuson írtál 1 beszámolót, melyból csak 1 került újraírásra, a többi automata átment. Műhelytagságodat a vezető szerep jellemezte. Az látszik, hogy nagyon büszke vagy magadra, de elég öntelten foglalod össze a mondanivalódat.",0,0,0,15,not end
+T_II_11111_112,2,T_II_11111_1112,"Volt 2 A kurzusod, amiből az egyik elég alibi is volt. Műhelytagságodat a teljes passzívitás jellemezte. De ultibajnokságon 3-ak lettetek a csapatoddal, szóval nem a képességekkel, hanem a motivációval van baj. Lecture-ön nem voltál egyen sem, mert annál azért értékesebb az időd.",0,0,0,-10,not end
+T_II_11111_113,1,T_II_11111_1111,"Csak 3 Lecture-ön voltál ebben a tanévben, ezért piszkáltak is a nagyobbak. De mind a 4 A kurzuson írtál 1 beszámolót, melyból csak 1 került újraírásra, a többi automata átment. Műhelytagságodat a vezető szerep jellemezte. Az látszik, hogy nagyon büszke vagy magadra, de elég öntelten foglalod össze a mondanivalódat.",0,0,0,15,not end
+T_II_11111_113,2,T_II_11111_1112,"Volt 2 A kurzusod, amiből az egyik elég alibi is volt. Műhelytagságodat a teljes passzívitás jellemezte. De ultibajnokságon 3-ak lettetek a csapatoddal, szóval nem a képességekkel, hanem a motivációval van baj. Lecture-ön nem voltál egyen sem, mert annál azért értékesebb az időd.",0,0,0,-10,not end
+T_II_11111_114,1,T_II_11111_1111,"Csak 3 Lecture-ön voltál ebben a tanévben, ezért piszkáltak is a nagyobbak. De mind a 4 A kurzuson írtál 1 beszámolót, melyból csak 1 került újraírásra, a többi automata átment. Műhelytagságodat a vezető szerep jellemezte. Az látszik, hogy nagyon büszke vagy magadra, de elég öntelten foglalod össze a mondanivalódat.",0,0,0,15,not end
+T_II_11111_114,2,T_II_11111_1112,"Volt 2 A kurzusod, amiből az egyik elég alibi is volt. Műhelytagságodat a teljes passzívitás jellemezte. De ultibajnokságon 3-ak lettetek a csapatoddal, szóval nem a képességekkel, hanem a motivációval van baj. Lecture-ön nem voltál egyen sem, mert annál azért értékesebb az időd.",0,0,0,-10,not end
+T_II_11111_211,1,T_II_11111_1111,"Csak 3 Lecture-ön voltál ebben a tanévben, ezért piszkáltak is a nagyobbak. De mind a 4 A kurzuson írtál 1 beszámolót, melyból csak 1 került újraírásra, a többi automata átment. Műhelytagságodat a vezető szerep jellemezte. Az látszik, hogy nagyon büszke vagy magadra, de elég öntelten foglalod össze a mondanivalódat.",0,0,0,15,not end
+T_II_11111_211,2,T_II_11111_1112,"Volt 2 A kurzusod, amiből az egyik elég alibi is volt. Műhelytagságodat a teljes passzívitás jellemezte. De ultibajnokságon 3-ak lettetek a csapatoddal, szóval nem a képességekkel, hanem a motivációval van baj. Lecture-ön nem voltál egyen sem, mert annál azért értékesebb az időd.",0,0,0,-10,not end
+T_II_11111_212,1,T_II_11111_1111,"Csak 3 Lecture-ön voltál ebben a tanévben, ezért piszkáltak is a nagyobbak. De mind a 4 A kurzuson írtál 1 beszámolót, melyból csak 1 került újraírásra, a többi automata átment. Műhelytagságodat a vezető szerep jellemezte. Az látszik, hogy nagyon büszke vagy magadra, de elég öntelten foglalod össze a mondanivalódat.",0,0,0,15,not end
+T_II_11111_212,2,T_II_11111_1112,"Volt 2 A kurzusod, amiből az egyik elég alibi is volt. Műhelytagságodat a teljes passzívitás jellemezte. De ultibajnokságon 3-ak lettetek a csapatoddal, szóval nem a képességekkel, hanem a motivációval van baj. Lecture-ön nem voltál egyen sem, mert annál azért értékesebb az időd.",0,0,0,-10,not end
+T_II_11111_1111,1,,VÉGE,0,0,0,0,end
+T_II_11111_1112,2,,VÉGE,0,0,0,0,end

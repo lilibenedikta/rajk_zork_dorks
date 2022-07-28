@@ -6,14 +6,31 @@ from dash.dependencies import Input, Output, State
 from flask import send_from_directory
 import dash_bootstrap_components as dbc
 
-from session_state import SessionState
+from session_state import SessionState, Starting_SessionState
 import pandas as pd
 
 import dash
 
+import boto3
 
-edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index("FROM")
-node_data = pd.read_csv("data/RAJK_ZORK_nodes.csv").set_index("NODE_ID")
+client = boto3.client(
+    's3',
+    aws_access_key_id = 'AKIASJIEFZIWUUY5K5DG',
+    aws_secret_access_key = '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',
+    region_name = 'us-east-1'
+)
+
+RAJK_ZORK_edges_from_AWS_server = client.get_object(
+    Bucket = 'szovegek',
+    Key = 'RAJK_ZORK_edges.csv'
+)
+RAJK_ZORK_nodes_from_AWS_server = client.get_object(
+    Bucket = 'szovegek',
+    Key = 'RAJK_ZORK_nodes.csv'
+)
+    
+edge_data = pd.read_csv(RAJK_ZORK_edges_from_AWS_server['Body']).set_index("FROM")
+node_data = pd.read_csv(RAJK_ZORK_nodes_from_AWS_server['Body']).set_index("NODE_ID")
 
 state = "T_I_1"
 

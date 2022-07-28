@@ -1,8 +1,7 @@
-
 NODE_ID,SHORT_SUMMARY,TEXT_N
 T_I_1,intro,"Nagyokat pislogsz, fáj a fejed.  
 
-Homályos minden, de magadat megemberelve körbenézel. Mit keres a cintányér a kanapén melletted. Miért kormos a bal kezed egy kis pontban. Miért megy az igen-igen a fejedben. 
+Homályos minden, de magadat megemberelve körbenézel. Mit keres a cintányér a kanapén melletted. Miért kormos a bal kezed. Miért szól egy 16 éves MSZP-s kampánydal a fejedben.. 
 
 Azt már ébredéskor érezted, hogy ragad a mellkasod, az eldobált sörösdobozok számából ítélve sajnos ez több dolog is lehet.  
 
@@ -52,7 +51,7 @@ T_I_111_B,zsebet kukába,"Féllomhán felállsz és elindulsz a kuka felé.
 Hol találod meg a kukát?"
 T_I_112,lidl,"Ihh az combos. Észreveszed, hogy mindjárt le is merül a telód. Elkezded keresgéli a töltőted, majd eszedbejut, hogy a táskádban van. De nyugi, az meg már a közös buszon.
 
-Ebben a pillanatban lemerül a telód, fingod nincs mennyi az idő és hogy hol vagy, Valszeg akk kedd lehet. 
+Ebben a pillanatban lemerül a telód, fingod nincs mennyi az idő és hogy hol vagy. Valszeg akk kedd lehet. 
 
 A fejfájásod felerősödik kicsit de körbenézel mostmár, hogy hol vagy."
 T_I_131,vállgazd idézet,"Elolvastad, és egy kellemes érzés szele jár hirtelen át. Teljesen kitisztult a fejed, boldogan körbenézel."
@@ -62,7 +61,7 @@ Hol lehetsz?"
 T_I_133,rágó,"Nagy mákod van, ízesített, jóféle. A rágózgatás ugyan nem tesz jót a fogaknak, de segít gondolkodni és kicsit kitisztul tőle a fejed. 
 
 Körbenézel, hol lehetsz?"
-T_I_1111,próba,"Ahogy kinyitod a jól zárható próba ajtaját, szagok és fények kavalkádja csap arcon. Enyhén észak-keletre egy porfátyolos fényben úszó folyosó vezet. Délre egy ajtót találsz. Jó zene szól, de innen elég büdös jön ki, no meg valai sopánkodik bent. A folyosó végén észak felől egy fa ajtón keresztül halk zene és hívogató illatok áradnak. 
+T_I_1111,próba,"Ahogy kinyitod a jól zárható próba ajtaját, szagok és fények kavalkádja csap arcon. Enyhén észak-keletre egy porfátyolos fényben úszó folyosó vezet. Délre egy ajtót találsz. Jó zene szól, de innen elég büdös jön ki, no meg valaki sopánkodik bent. A folyosó végén észak felől egy fa ajtón keresztül halk zene és hívogató illatok áradnak. 
 
 Az újdonsült fényben meglátsz a bal kezeden a hamu alatt kirajzolódó betűket. Kicsit fáj, ahogyan leporolod. Óvatosan haladsz vele, elkezded kiolvasni a kirajzolódó szavakat, de néhány betű olvashatatlan.
 
@@ -74,7 +73,7 @@ Az újdonsült fényben meglátsz a bal kezeden a hamu alatt kirajzolódó betű
 ""A fészkes fenébe, a közös busz!"" - átkozódsz kissé artikulálatlanul, kicsit kiszáradva. Jó lenne rájönni, hogy még elérheted-e. 
 
 Mit csinálsz?"
-T_I_1112,pince,"Elsétálsz a csocsóasztalhoz, amin meglepetésedre éppen a Barab fekszik. Biztos fáradt, békén hagyod. Viszont innen már telejsen megbizonyosodtál, hogy ez a pince, Látod, hogy megszólal egy ébresztő mellette az asztalon ""Trash talkoltam tegnap eleget az asztal mellett? Ha nem, akkor most járunk félúton a nyári tábor felé a közös busszal, itt az ideje bepótolni.""
+T_I_1112,pince,"Elsétálsz a csocsóasztalhoz, amin meglepetésedre éppen a Barab fekszik. Biztos fáradt, békén hagyod. Viszont innen már telejsen megbizonyosodtál, hogy ez a pince. Látod, hogy megszólal egy ébresztő mellette az asztalon ""Trash talkoltam tegnap eleget az asztal mellett? Ha nem, akkor most járunk félúton a nyári tábor felé a közös busszal, itt az ideje bepótolni.""
 
 ""A faszom, a közös busz!"" nyögsz fel karcosan.
 
@@ -88,7 +87,7 @@ T_I_11111,woodroom / redroom,"Vársz kicsit majd kinyitod a faajtót. Nagy örö
 Ezzel párhuzamosan kezdik észrevenni, hogy bejöttél, és mindenki örömtelien felkiállt. ""Whoooooo!"" örvendeznek nyíltan. Ez egyszerre tölt el jó érzéssel és tompa fejfájással. Kikövetkezteted, hogy innen most senki sem siet épp annyira, mint te. A füstöt bent vágni lehetne, de te már jól tudod ez milyen füst. Megkínálnak a füst forrásával.
 
 Mit csinálsz?"
-T_I_11112,udvar,"Kinyitottad a kopottas ajtót, és a halvány fénysugárból hirtelen megcsap a reggeli óra fényessége. Noha nem szó szerint csapott meg, a frontális lebenyedbe mégis éles fájdalom nyilal.Tegnapi rossz döntések emléke suhan át gyorsan a fejeden. Egyik se túl konkrét, de egy ""Évfolyamfeles!"" felkiálltás, egy hangos frizbizés, egy nehéz piros tárgy elejtése és egy mellkasodon megpihenő szőrös kisállat emlékét kapod el, a többit elnyomja a tompító fejfájás.
+T_I_11112,udvar,"Kinyitottad a kopottas ajtót, és a halvány fénysugárból hirtelen megcsap a reggeli óra fényessége. Noha nem szó szerint csapott meg, a frontális lebenyedbe mégis éles fájdalom nyilal.Tegnapi rossz döntések emléke suhan át gyorsan a fejeden. Egyik se túl konkrét, de egy ""Évfolyamfeles!"" felkiálltás, egy hangos frizbizés, egy nehéz piros tárgy elejtése és egy életmentő hajnali nasizás emlékét kapod el, a többit elnyomja a tompító fejfájás.
 
 Egy nedves lépcsőt találsz magad előtt. Biztos esett tegnap. A tetején valaki hangosan hallgatja a kedvenc Abba számod. 
 
@@ -154,11 +153,16 @@ A lépcső csúszik, érdemes lehet óvatosabban felmenni.
 Mit csinálsz?"
 T_I_11112_2,óvatosan lépcsőzöl / zsibongó udvar,"Félúton egyszer megcsúszik a lábad, de nem esel el.
 
-Mikor felérsz a lépcső tetejére nagy nyüzsgés fogad. Páran még reggeli kávéjukat isszák a tegnapi KGy után délben kelve, 5-ösével kocsi indulásokat beszélnek éppen, miközben megintt mások pingpongoznak a háttérben. Pár szende UF gyülekezik Bátor Adri körül aki épp kisorsolja kivel fog stoppolni. Nagyon jók a referenciái, ezért mindenki vele akart stoppolni. Elismerően bólintasz egyet felé.
+Mikor felérsz a lépcső tetejére nagy nyüzsgés fogad. Páran még reggeli kávéjukat isszák a tegnapi KGy után délben kelve, 5-ösével kocsi indulásokat beszélnek éppen, miközben megint mások pingpongoznak a háttérben. Pár szende UF gyülekezik Bátor Adri körül aki épp kisorsolja kivel fog stoppolni. Nagyon jók a referenciái, ezért mindenki vele akart stoppolni. Elismerően bólintasz egyet felé.
 
 Na de, vár az Attila mesél, el kéne indulni. 
 
 Kikhez mész oda?"
+T_I_11112_3,óvatosan lépcsőzöl / üres udvar,"Félúton egyszer megcsúszik a lábad, de nem esel el.
+
+Az udvaron nem találsz senkit. Egy asztalon hagyott laptopon megpillantod, hogy egy friss UF épp stoppoló társat keres. Tudod, hogy az lelassítaná a lejutásodat, de ha jól sül el milyen jó élmény is lehet.
+
+Mit csinálsz?"
 T_I_11113_1,segítesz,"""Na te tulok"" válaszolsz szívélyesen, ""gyere rám."" 
 
 Segítesz leemelni a lábáról az azt nyomó súlyokat. Meglesed a lábát, nem olyan csúnya, mint elsőre tűnt. De nem is túl szép tho. Azért a drámai effektus kedvéért hüledezel, hogy hogyan tud ráállni. Segítőkészen épp elkezdenél tárcsázni egy jó ravatalozót neki, azonban ezt udvariasan visszautasítja. 
@@ -297,7 +301,7 @@ T_I_11112_21,UF stopp,"El is kapsz egy szimpatikus UF-et, és megkérded, hogy m
 Mivel taktikusan biológiai fiú-lány párosként indultatok, amint kiálltatok elkezdtek tolongani értetek a sztráda mellet. Megállt egy minibusz MCC felirattal az oldalán, egy szerződés szerint csak Eis Kaffee-t szállító kamion, és egy versenylószállító kocsi, MCC felirattal az oldalán.
 
 Mit csinálsz?"
-T_I_11112_22,pingpongosok,"Mikor odaérsz a pingpongosokhoz, épp befejezik a meccset, és odagyűlnek a közeli asztalhoz nagy érdeklődve. Az asztalnál Mendöl Márk és Bozó Benedek szkandereznek tét nélkü. A nézők között Andort pillantod meg, aki gondolkodva lesi az aktust.
+T_I_11112_22,pingpongosok,"Mikor odaérsz a pingpongosokhoz, épp befejezik a meccset, és odagyűlnek a közeli asztalhoz nagy érdeklődve. Az asztalnál Mendöl Márk és Bozó Benedek szkandereznek tét nélkül. A nézők között Andort pillantod meg, aki gondolkodva lesi az aktust.
 
 Úgy döntesz nem várod meg hogy alakul, akár hónapokig is eltarthat. 
 
@@ -370,16 +374,237 @@ A lovas kocsi nagyon lassan visz közelebb az úti célodhoz, az utolsó 10 kil�
 Korahajnalban érkezel meg, de nagy fáradságodba már bulizni sincs kedved. Lekésted amiért siettél, és még panaszkodni sem tudsz másokra.
 
 Fejedet lehajtva elszégyelled magad."
-T_I_11112_2113,OV,"""Doktor miniszterelnökúr!"" kiálltotok fel mindketten.
+T_I_11112_2113,OV,"""Professzor Doktor Miniszterelnök Úr!"" kiálltotok fel mindketten.
 
-Megrohamozzátok a kegyelmes úr hintaját, és szóba elegyedtek vele. Először megköszöntétek neki Sallai dupláját az angol-magyaron, és kíváncsian érdeklődtök, hogy az Elk*tuk nevében mit takar ki a csillag. Ezekről szívályesen elcseveg veletek a főnök, azonban most éppen fontos küldetésen van, magyarázza épp: járja az országot még egy ksi misebor után, hátha az oroszok is kérnek. 
+Megrohamozzátok a kegyelmes úr hintaját, és szóba elegyedtek vele. Először megköszöntétek neki Sallai dupláját az angol-magyaron, és kíváncsian érdeklődtök, hogy az Elk*tuk nevében mit takar ki a csillag. Ezekről szívályesen elcseveg veletek a főnök. Egy ponton jelzi azonban, hogy most éppen fontos küldetésen van: épp járja az országot még egy kis misebor után, magyarázza, hátha az oroszok is kérnek. 
 
-Bedobjátok, hogy a halál faszán van egy kis falu, ahol a népi kultúra érintetlensége miatt biztosan van sok misebor. Sőt, szinte az ukrán határ szélén is van. Megtetszik neki az ötlet, de vonakodik kicsit, mert már nagyon szeretne Stop Soros feliratokat rajzolgatni zsírkrétával a limóban. Végül csak sikerül meggyőzni azzal, hogy szeretnétek világra hozni még egy magyart, de ehhez szükséges egy nyugodt környezet, viszont errefele kötelező nemváltó műtétekkel riogatják a bölcsiseket. Belátja, hogy a körülmények így nem alkalmasak rendes, keresztény futballistát szülni, úgyhogy be is ültök a limóba.
+Bedobjátok, hogy a halál faszán van egy kis falu, ahol a népi kultúra érintetlensége miatt biztosan van sok misebor. Sőt, az ukrán határhoz jó közel is van. Megtetszik neki az ötlet, de vonakodik kicsit, mert már nagyon szeretne Stop Soros feliratokat rajzolgatni zsírkrétával a limóban. Végül csak sikerül meggyőzni azzal, hogy szeretnétek világra hozni még egy magyart, de ehhez szükséges egy nyugodt környezet, viszont errefele kötelező nemváltó műtétekkel riogatják a bölcsiseket. Belátja, hogy a körülmények így nem alkalmasak rendes, keresztény futballistát fogantatni, úgyhogy be is ültet a limóba.
 
-Elindultok a sztrádán, hallgatva egy kellemes népi zenei lejátszási listát, melyet 1-1 klasszikus tör csak meg. Mikor felcsendül az ""Igen, igen"" mind elmorzsoltok egy örömkönnyet, hogy lassan másfél évtizede nem lövettek senki szemébe.
+Elindultok a pályán, hallgatva egy kellemes népi zenei lejátszási listát, melyet 1-1 klasszikus tör csak meg. Mikor felcsendül az ""Igen, igen"" mind elmorzsoltok egy örömkönnyet, hogy lassan másfél évtizede nem lövettek senki szeme közé.
 
 Telik-múlik az idő, de csak leértek a nyári táborba. A miniszterelnöki kocsi olyan hamar levitt, hogy még Attilát sem látjátok.
 
 Kis idő elteltével megjelenik mindenki. Leülsz a legközelebbi padhoz, és az első sorból hallgatod Attila megnyugtató hangját, aki ebben a pillanatban rádmosolyog. Innen tudod, Attila büszke Rád.
 
 ""Minden megérte"" mormolod magadban."
+T_II_0,mi vaaaaaan,Odaszólsz miiivaaan
+T_II_1_jo,leértél tegnap Attila mesélre,"Mosolyogva kelsz másnap reggel. Ahogy kifordulsz az ágyból szinte süt rólad az energia, jegyzi meg a szobatársad. ""Hehe, ez de buzis volt"" veted oda válaszul.
+
+Mivel a tegnapi ruhádban aludtál fel sem kell öltöznöd, és már el is ballagsz az étkezdébe. A nap legfontosabb étkezése ma egy okésan száraz zsemle, miniatűr, külön műanyagba csomagolt vaj, illetve mellé ugyanígy tárolt cukordzsem, illetve pár picassoi gonddal elhelyezett löncspárizsi az ínyenceknek. A táskádat valaki bementette a közös buszról tegnap, azon gondolkodsz, hogy csomagoltál-e valami ételt.
+
+Mit csinálsz? "
+T_II_1_kozepes,pont nem értél le tegnap Attila mesélre,"Tegnap a kései érkezés miatt körülbelül 2 órával később ittad magad tudatlanra, mint a medián, így ~2 órával később is mentél aludni, így ~2 órával kevesebbet is aludtál. A tegnapi után kellett még ez a fejfájós reggel, mint egy falat kenyér.
+
+Apropó falat kenyér, kéne egyet reggelizni ha már fizettél érte. A tegnapi ruháidban már el is ballagsz az étkezdébe. A nap legfontosabb étkezése ma egy okésan száraz zsemle, miniatűr, külön műanyagba csomagolt vaj, illetve mellé ugyanígy tárolt cukordzsem, illetve pár picassoi gonddal elhelyezett löncspárizsi az ínyenceknek. A táskádat valaki bementette a közös buszról tegnap, azon gondolkodsz, hogy csomagoltál-e valami ételt.
+
+Mit csinálsz? "
+T_II_1_rossz,mindent lekéstél,"Olyan későn és nehezen értél le tegnap, hogy ma már később is keltél az átlagnál. Rövid kelés után gyorsan az étkezőbe sietsz, hogy még valamit bements a reggeli turnusból. 
+
+Meghökkenve tapasztalod, hogy szinte minden másik rajkos már nagyban reggelizget. Ekkor érkezik meg Grenczer Máté, Mizsák Máté és Gémes Imi, veled szinte párhuzamosan eszmélnek ugyanerre. Nem hallod pontosan, hogy melyikük, de az egyik Máté fel is hozza ezt, melyen összemosolyogtok, Imi barátságosan fel is nevet. Innen arra következtetsz, hogy Mizsák mondhatta, és kicsit szélesebben elmosolyodsz.
+
+Ugyanilyen félkomolyan mondja be, hogy most mival, a maradék 2 zsemléért meg 2 löncshúsért vajon meg kell küzdenetek, hogy ne menjen a társaság fele éhesen neki az Önmarci napnak. Ezen egy rövid ideig elmosolyodtok megint, de Grenczernek meg neked kicsit az arcodra fagy a mosoly, mikor meglátod Máté és Imi szemében az éhség árulkodó nyomait. Ismét megcsapja a füledet Imi sugárzó kacaja, de mostmár csak Mizsák mosolyog mellette mohón.
+
+Mindketten kinyomnának titeket Grenczerrel fekve, ha akarnának, ez tény. Felméred, hogy a zsemle és a löncspárizsi egymással szemben helyezkedik el, esélytelen mindkettőt előbb elcsípned, mint ez a páratlan páros. Grenczer kollegára nézel, aki ugyanezen dillemázhat. Ha egyszerre elkezdtek futni az arra a kajára, amelyikre számításaid szerint később érnek oda a srácok, akkor még van esélyetek enni valamit mielőtt leültök 12 órára önmarcizni. 
+
+Mit csinálsz?"
+T_II_11,vaj hús,"A melletted ülő egészség- és környezet tudatos rajkos társad már el is kezdi mondani neked, hogy a hús miért nem létszükséglet. Továbbá, környezetvédelmi szempontból a húsevő étrend egy fenntarthatatlan vagy luxus étkezési szokás lesz 10-20 éven belül. Megnyugtatod, hogy ebben semmi hús nincs, majd lenyeled az utolsó falatot, és megnyalod mind a 10 ujjad. Jól esett megnyerni egy vitát már a nap elején. ""Gyere rám önmarci,"" gondolod magadban.
+
+Reggeli után minden évfolyamtársad elkezd gyülekezni egy helyen. Azonban egy végzős spanod melletted kezd el cigit tekerni, ami ihletet ad.
+
+Mit csinálsz?"
+T_II_12,vaj dzssem,"""Egészségetekre"" mondjátok egymásnak a kantinban. Ez a jó lekváros zsömi kicsit feldobott, adott kis lendületet is.
+
+Ahogy lenyeled az utolsó falatot észreveszed, hogy az évfolyamtársaid már indulásra készen várnak. Ahogy felállsz kiesik egy szűrő a zsebedből az asztalra, majd a kezedbe, majd már a szádban is pihen. Jajj, ne, gondolod szomorúan. Most vajon ki kellene dobni ezt a hibátlan szűrőt, tűnődsz el.
+
+Mit csinálsz?"
+T_II_13,dzsem hús,"Mindenki elborzad kicsit körülötted. Kivéve a Nyáry Janit, ő elismerően bólogat féloldalasan. 
+
+Miután jól befaltad 4 ember reggelijét, már el is indulsz az önmarci-gyülekező spot felé. Annyi energiát adott a sok táplálék, hogy mindenkit leköröztél, ott állsz egy dohánypakkal a zsebedben, várakozva. 
+
+Mit csinálsz?"
+T_II_14,táska?,"Elindulsz a táskád felé, amit bent hagytál a kisházatokban. Fogalmad sincs az melyik. Pár perc keresgélés után elfáradsz, de pont jön szembe egy náyri tábor szervező, aki éppen egy nála nagyobb talicskát próbál hegynek felfele tolni, tele tüzifával. 
+
+Mit csinálsz? "
+T_II_31,húsra futottál,"G. Mátéval azonnal megértitek egymást, és eliramodtok az ételek felé. M. Máté és Imre századmásodpercekkel vannak lemaradva, de a döntő pillanatban a másik irányba veszik az irányt. Szátokban a hússal leültök a falatozó srácok mellé és nevetgélve megreggeliztek. 
+
+Semmire nem volt elég ez a reggeli, ezért sietve elindulsz a táskád felé. A baj, hogy fogalmad sincs melyik a ti vityillótok. Pár perc keresgélés után elfáradsz, de pont jön szembe egy náyri tábor szervező, aki éppen egy nála nagyobb talicskát próbál hegynek felfele tolni, tele tüzifával. 
+
+Mit csinálsz? "
+T_II_32,zsemlére futottál,"Alig volt időd elköteleződni egy válsztás mellett, mikor észleled, hogy az izmos duó már el is iramodott az étel felé. Mátéval utánuk iramodtok, annak reményében, hogy marad nektek valami. A választásod ugyan feleslegesnek bizonyult, de eltaláltad: a maradék hús fogyott el mire az asztal másik végébe értetek. Küzdős volt, de fejenként egy félszáraz zsemle volt a jussotok, már el is majszoljátok az asztal mellett.
+
+Semmire nem volt elég ez a reggeli, ezért sietve elindulsz a táskád felé. A baj, hogy fogalmad sincs melyik a ti vityillótok. Pár perc keresgélés után elfáradsz, de pont jön szembe egy náyri tábor szervező, aki éppen egy nála nagyobb talicskát próbál hegynek felfele tolni, tele tüzifával. 
+
+Mit csinálsz? "
+T_II_111,cigi nélkül önmarcika,"Az évfolyamoddal kerestek egy megnyugtató helyet a tábor területén. Neked nincs sok ötleted, de erős preferenciád sem, hogy hol legyetek.
+
+Leültök végre egy körbe, kezdődik az önmarci.
+
+Hanyadiknak szeretnél jönni?"
+T_II_112,cigivel önmarcika,"Jól esik ez a reggeli cigi. Egy kávé mellőle nagyon hiányzik, de egy tusolást is el tudnál fogadni. Najó azért mostmár úgy döntesz, hogy megtiszteeld az évfolyamod maradékát és inkább csatlakozol.
+
+Egy kellemes félreeső zugot találtak közben, be is csatlakozol a körbe. Pár ember arca kétségbeesést és rettegést tükröz, mások magabiztosan olvasgatják a jegyzeteiket, megint mások meg indifferensen, vagy talán enyhén unottan néznek maguk elé. Szerintük biztos nem ez a legjobb módja a visszajelzésnek.
+
+Mindenki a helyén, kezdődik az önmarci.
+
+Hanyadiknak szeretnél jönni?"
+T_II_141,füllhallgató a fülbe,"Megúsztad a munkát, szép munka. Ahogyan elmegy melletted a fiatal tag meglátod egy szobatársadat kijönni egy bungallóból a túloldallon, egyből meg is célzod. Megtalálod a táskád, benne a teljes dohányszetteddel. Ételt nemigen találsz, de egy megkezdett chips is több lehet mint a semmi. 
+
+Mit csinálsz?"
+T_II_142,asszertív megállítás,"""Na heló, Öcsi"" állítod meg. ""Istenem mi van már megint"" válaszol nem épp türelmesen. Több sem kellett neked, már neki is állsz bő 5 percig kioktatni őt az intézmény és az idősek tiszteletéről. Emlékezteted, hogy bizottsági tag vagy, nélküled nem lenne fa, amit cipelnie kell. 
+
+A lebaszás jól esett, de a nagy hévben elfelejtetted megkérdezni tőle a szobád számát. 1-1, zárod le magadban a találkozót. 
+
+Találsz egy dohánycuccot a lépcsőn, amire lehevertél megint. Ugyanott egy tegapról megmaradt pizzaszeletet is találsz a kövön, mely eszedbejuttatta, milyen éhes vagy. 
+
+Mit csinálsz?"
+T_II_1411,kaja nem cigi,"Épp élkezdhetnéd élvezn, hogy étel kerülhet a szervezetedbe, mikor az egyik évfolyamtársad meglát. Szúrós szemmel néz rád, és megkér, hogy ""gyere mostmár, a büdös kis faszom"". Felhívod a figyelmét, hogy ""jól van már nem lehet az embernek egy perc nyugta sem.""
+
+Éhesen kiforduslz magadból kicsit, konstatálod. De kitartasz az igazad mellett.
+
+Elindultok közösen egy félreeső kis helyre. Pár ember arca kétségbeesést és rettegést tükröz, mások magabiztosan olvasgatják a jegyzeteiket, megint mások meg indifferensen, vagy talán enyhén unottan néznek maguk elé. Szerintük biztos nem ez a legjobb módja a visszajelzésnek.
+
+Mindenki a helyén, kezdődik az önmarci.
+
+Hanyadiknak szeretnél jönni?"
+T_II_1412,cigi nem kaja,"Abban a percben, hogy rágyújtasz, az egyik évfolyamtársad meglát. Szúrós szemmel néz rád, és megkér, hogy ""gyere mostmár, a büdös kis faszom"". Felhívod a figyelmét, hogy ""jól van már nem lehet az embernek egy perc nyugta sem.""
+Éhesen kiforduslz magadból kicsit, konstatálod. De kitartasz az igazad mellett.
+
+Elindultok közösen egy félreeső kis helyre. Pár ember arca kétségbeesést és rettegést tükröz, mások magabiztosan olvasgatják a jegyzeteiket, megint mások meg indifferensen, vagy talán enyhén unottan néznek maguk elé. Szerintük biztos nem ez a legjobb módja a visszajelzésnek.
+
+Mindenki a helyén, kezdődik az önmarci.
+
+Hanyadiknak szeretnél jönni?"
+T_II_1111,elsőnek jössz,"Nem látod az értelmét a teketóriázásnak, bele is kezdesz. 
+
+Az elején kell kezdeni a sztoridat is. Nem éppen klasszikusnak mondható éved volt, miután SZIB vezetőnek választottak október elején még mindenki örült, hogy kezded megtalálni a helyed az intézményi rendszerünkben is. Később dilemmákba kerültél a Könyvtáros és Nyomtató felelős pozíciók között, de mindnkettőre elindultál. Mivel mindenki érezte a szinergiákat, SZIB főnökként behúztad a nyomtatós melót, de a másikat egy lelked UF kapta, a kis piszok. Ezek után meg már felháborított kicsit, hogy TAXI-snak nem választottak meg. Jó nem tudod mit rövidít, de az UF-ekre nagyon odaakartál figyelni, és szomorúan kellett konstatálnod, hogy így már semmi lehetőség vagy felelősség nincs a te válladon az UF-ek kapcsán. Sőt, ez kicsit dühített is, de nincs mit tenni. 
+
+Hogy értékeled az intézményi kalandozásodat?"
+T_II_1112,11-nek jössz,"Udvariasan kiváord a sorodat, majd bele is kezdesz. 
+
+Az elején kell kezdeni a sztoridat is. Nem éppen klasszikusnak mondható éved volt, miután SZIB vezetőnek választottak október elején még mindenki örült, hogy kezded megtalálni a helyed az intézményi rendszerünkben is. Később dilemmákba kerültél a Könyvtáros és Nyomtató felelős pozíciók között, de mindnkettőre elindultál. Mivel mindenki érezte a szinergiákat, SZIB főnökként behúztad a nyomtatós melót, de a másikat egy lelked UF kapta, a kis piszok. Ezek után meg már felháborított kicsit, hogy TAXI-snak nem választottak meg. Jó nem tudod mit rövidít, de az UF-ekre nagyon odaakartál figyelni, és szomorúan kellett konstatálnod, hogy így már semmi lehetőség vagy felelősség nincs a te válladon az UF-ek kapcsán. Sőt, ez kicsit dühített is, de nincs mit tenni. 
+
+Hogy értékeled az intézményi kalandozásodat?"
+T_II_11111,áldozat intézmény,"Jól van furcsán néznek de ez nem tántorít el, most jön a dzsúsz még csak úgyis. 
+
+Mert ugyanis a legfrissebb évfolyam elől titkosan megrendezésre került egy Cs-est és Lánynap a napokban. Na meg volt egy másik októberben is. Nem is tudod melyikkel kezdd.
+
+Mit csinálsz?"
+T_II_11112,megbocsátasz intézmény,"Jól van furcsán néznek de ez nem tántorít el, most jön a dzsúsz még csak úgyis. 
+
+Mert ugyanis a legfrissebb évfolyam elől titkosan megrendezésre került egy Cs-est és Lánynap a napokban. Na meg volt egy másik októberben is. Nem is tudod melyikkel kezdd.
+
+Mit csinálsz?"
+T_II_11111_1,A júniusi lánynappal kezdesz.,"Összeszorított fogakkal elemzed az aznap elrontott pillanatokat, de az örömteli találatok és a végén a lerakott teljesítmény örömével térsz nyugovóra. Egész jól bírtad szusszal is az estét.
+
+Csak aztán megjöttek a csajok és elindult a bajvonat. Nem voltál felkészülve arra, hogy a Nyomtató fontos része a koreónak, és a Poszt-UF-ek így kénytelenek voltak a kezükkel takarni a micsodájukat a kinyomtatott vállgazd tankönyvek helyett. Minden nagyon jól sült el a végén, így még talán jobban is élvezték az ittasabb hölgyek. Az ügyesebb első sorban ülők ingyen zoknit is szerezhettek.
+
+Hogy értékeled a saját teljesítményedet ebben az egészben?"
+T_II_11111_2,Az októeri lánynappal kezdesz.,"Azzal az estével nem is lett volna baj, hogyha nem használod ki az emberfeletti sármaidat a gyanútlan legfiatalabb korosztállyal szemben. Csorbult a józan ész elve, ugyanis a pillanat hevében összekavartál a legfiatalabb UF-fel, pedig még párja is volt ezidőben. Meg neked is, sőt itt ül tőled hárommal balra a szerencsétlen. Legalább gálánsan dobtad 2-3 héttel később, hogy ne legyen neki gyanús. 
+
+De ez még nem is lenne akkora baj, ha nem a könyvtárban csináltátok volna, amivel a helyi tanulótárs-növényt sem nyírtátok volna ki. Szegény jeszkes, akit az óvatlan kezelés miatt másnap le is váltottak a könyvtáros poziból. Sajnos ő meg kettővel ül melletted balra, épp kedvesen fogva az exed kezét.
+
+Mit mondasz el ezekből az évfolyamtársaidnak?"
+T_II_11111_11,"októberi lánynap a második, okés vagy magaddal","Megnyugodtál kicsit, jól esett ezeket kimondani. Most viszont át is nyargalsz a másik lánynapra, attól kicsit jobban félsz.
+
+Azzal az estével nem is lett volna baj, hogyha nem használod ki az emberfeletti sármaidat a gyanútlan legfiatalabb korosztállyal szemben. Csorbult a józan ész elve, ugyanis a pillanat hevében összekavartál a legfiatalabb UF-fel, pedig még párja is volt ezidőben. Meg neked is, sőt itt ül tőled hárommal balra a szerencsétlen. Legalább gálánsan dobtad 2-3 héttel később, hogy ne legyen neki gyanús. 
+
+De ez még nem is lenne akkora baj, ha nem a könyvtárban csináltátok volna, amivel a helyi tanulótárs-növényt sem nyírtátok volna ki. Szegény jeszkes, akit az óvatlan kezelés miatt másnap le is váltottak a könyvtáros poziból. Sajnos ő meg kettővel ül melletted balra, épp kedvesen fogva az exed kezét.
+
+Mit mondasz el ezekből az évfolyamtársaidnak?"
+T_II_11111_12,"októberi lánynap a második, haragszol magadra","Önmarcangolsz, önostorozol, kicsit önfasztszopkodva. Most viszont át is nyargalsz a másik lánynapra, attól kicsit jobban félsz.
+
+Azzal az estével nem is lett volna baj, hogyha nem használod ki az emberfeletti sármaidat a gyanútlan legfiatalabb korosztállyal szemben. Csorbult a józan ész elve, ugyanis a pillanat hevében összekavartál a legfiatalabb UF-fel, pedig még párja is volt ezidőben. Meg neked is, sőt itt ül tőled hárommal balra a szerencsétlen. Legalább gálánsan dobtad 2-3 héttel később, hogy ne legyen neki gyanús. 
+
+De ez még nem is lenne akkora baj, ha nem a könyvtárban csináltátok volna, amivel a helyi tanulótárs-növényt sem nyírtátok volna ki. Szegény jeszkes, akit az óvatlan kezelés miatt másnap le is váltottak a könyvtáros poziból. Sajnos ő meg kettővel ül melletted balra, épp kedvesen fogva az exed kezét.
+
+Mit mondasz el ezekből az évfolyamtársaidnak?"
+T_II_11111_21,semmit nem vallasz be 1,"""Naszóval a legnagyobb probléma nem is velem volt, hanem hogy mennyire sokat ittam. És hát így hamar kidőltem, és mentem aludni. Ja még a könyvtárban néztem egy kis teniszt lefekvés előtt, de aztán olyan hamar eljöttem onnan, hogy fogalmam sincs mi történhetett még aznap este"" füllented.
+
+Vannak akik elhiszik, mások kevésbé. Kb. hihetőre sikerült a sztory. Át is tereled a szót gyorsan a közelmúlt eseményére.
+
+Összeszorított fogakkal elemzed az aznap elrontott pillanatokat, de az örömteli találatok és a végén a lerakott teljesítmény örömével térsz nyugovóra. Egész jól bírtad szusszal is az estét.
+
+Csak aztán megjöttek a csajok és elindult a bajvonat. Nem voltál felkészülve arra, hogy a Nyomtató fontos része a koreónak, és a Poszt-UF-ek így kénytelenek voltak a kezükkel takarni a micsodájukat a kinyomtatott vállgazd tankönyvek helyett. Minden nagyon jól sült el a végén, így még talán jobban is élvezték az ittasabb hölgyek. Az ügyesebb első sorban ülők ingyen zoknit is szerezhettek.
+
+Hogy értékeled a saját teljesítményedet ebben az egészben?"
+T_II_11111_22,könyvtárat vallod be 1,"""Be kell valljak valamit."" kezded baljósan. Nagy szüneteket tartasz a drámai hatás keltése érdekében. Kiélvezed a szituáció adta lehetőséget. ""Tudom mi tortént a könyvátarban a lánynap után."" Na most lett hirtelen teljes a feszült csend. ""Remélem nem miattad gondolkodnak a Lakóbiz létrehozásán a Könyvtáros és Szintfelelős összevonásával"" köpi be valaki a tömegből. 
+
+Ihh, ebbe nem is gondoltál bele. De ez a DB híresen jó döntéseket hoz, ebben a félévben még csak 10-en léptek ki de már egy normálisnál kisebb nefelejcs gondolatáról csiripelnek a madarak. Minimum egy szimpátiaszavazáson át kell mennie egy ilyen szintű dolognak. 
+
+Ez a gondolat megnyugtat, és elmondod, hogy te vagy a felelős. 
+
+Főzi segít megállítani egy tömegbunyót mikor rádugrik az ex-könyvtáros. De legalább senki nem firtatja a miértjét vagy higyanját.
+
+Megnyugszol kicsit, majd át is tereled a szót gyorsan a közelmúlt eseményére.
+
+Összeszorított fogakkal elemzed az aznap elrontott pillanatokat, de az örömteli találatok és a végén a lerakott teljesítmény örömével térsz nyugovóra. Egész jól bírtad szusszal is az estét.
+
+Csak aztán megjöttek a csajok és elindult a bajvonat. Nem voltál felkészülve arra, hogy a Nyomtató fontos része a koreónak, és a Poszt-UF-ek így kénytelenek voltak a kezükkel takarni a micsodájukat a kinyomtatott vállgazd tankönyvek helyett. Minden nagyon jól sült el a végén, így még talán jobban is élvezték az ittasabb hölgyek. Az ügyesebb első sorban ülők ingyen zoknit is szerezhettek.
+
+Hogy értékeled a saját teljesítményedet ebben az egészben?"
+T_II_11111_23,UF-et vallod be 1,"Nem kertelsz semmit, elmondod a sztorit. Döbbent csönd követi, 1-1 dühös nézést érzel a homlokodon, ahogyan lesütöd a szemed. A melletted ülő spanod azért minden feltűnést kerülve nyújt egy öklöst. Leöklözöd az asztal alatt, és elmosolyodsz, de rögtön inkább elkezded terelni a szót. Azért ez elég megosztó volt, de ezt tudtad előre.
+
+Áttérsz a másik lánynapi élményeidre. Összeszorított fogakkal elemzed az aznap elrontott pillanatokat, de az örömteli találatok és a végén a lerakott teljesítmény örömével térsz nyugovóra. Egész jól bírtad szusszal is az estét.
+
+Csak aztán megjöttek a csajok és elindult a bajvonat. Nem voltál felkészülve arra, hogy a Nyomtató fontos része a koreónak, és a Poszt-UF-ek így kénytelenek voltak a kezükkel takarni a micsodájukat a kinyomtatott vállgazd tankönyvek helyett. Minden nagyon jól sült el a végén, így még talán jobban is élvezték az ittasabb hölgyek. Az ügyesebb első sorban ülők ingyen zoknit is szerezhettek.
+
+Hogy értékeled a saját teljesítményedet ebben az egészben?"
+T_II_11111_24,mindent bevallasz 1,"Bevallasz mindent. Döbbent és feszült csend következik. Alapvetően viszont a legtöbb ember támogatóan néz feléd, hogy őszintén megosztottál magadról nem-pozitív élményeket is, illetve hogy milyen érzéseket váltott ki belőled. Meglepően jól érzeeed magad ettől, nagy kövek estek le most a szívedről.
+
+Gyorsan áttérsz a másik lánynapi élményeidre. Összeszorított fogakkal elemzed az aznap elrontott pillanatokat, de az örömteli találatok és a végén a lerakott teljesítmény örömével térsz nyugovóra. Egész jól bírtad szusszal is az estét.
+
+Csak aztán megjöttek a csajok és elindult a bajvonat. Nem voltál felkészülve arra, hogy a Nyomtató fontos része a koreónak, és a Poszt-UF-ek így kénytelenek voltak a kezükkel takarni a micsodájukat a kinyomtatott vállgazd tankönyvek helyett. Minden nagyon jól sült el a végén, így még talán jobban is élvezték az ittasabb hölgyek. Az ügyesebb első sorban ülők ingyen zoknit is szerezhettek.
+
+Hogy értékeled a saját teljesítményedet ebben az egészben?"
+T_II_11111_111,júniusi vége 1,"""Naszóval a legnagyobb probléma nem is velem volt, hanem hogy mennyire sokat ittam. És hát így hamar kidőltem, és mentem aludni. Ja még a könyvtárban néztem egy kis teniszt lefekvés előtt, de aztán olyan hamar eljöttem onnan, hogy fogalmam sincs mi történhetett még aznap este"" füllented.
+
+Vannak akik elhiszik, mások kevésbé. Kb. hihetőre sikerült a sztory.
+
+Végül jöhet egy kis szakma, gondolod. Próbálod összeszedni, milyen szakmai eseményeken vettél részt az évben. Volt 2-4 A kurzusod az fix, meg egy műhelytagságod is. Huhh de volt egy csomó díjas is.
+
+Hogy nézett ki egyben az éved szakmai oldalról?"
+T_II_11111_112,júniusi vége 2,"""Be kell valljak valamit."" kezded baljósan. Nagy szüneteket tartasz a drámai hatás keltése érdekében. Kiélvezed a szituáció adta lehetőséget. ""Tudom mi tortént a könyvátarban a lánynap után."" Na most lett hirtelen teljes a feszült csend. ""Remélem nem miattad gondolkodnak a Lakóbiz létrehozásán a Könyvtáros és Szintfelelős összevonásával"" köpi be valaki a tömegből. 
+
+Ihh, ebbe nem is gondoltál bele. De ez a DB híresen jó döntéseket hoz, ebben a félévben még csak 10-en léptek ki de már egy normálisnál kisebb nefelejcs gondolatáról csiripelnek a madarak. Minimum egy szimpátiaszavazáson át kell mennie egy ilyen szintű dolognak. 
+
+Ez a gondolat megnyugtat, és elmondod, hogy te vagy a felelős. 
+
+Főzi segít megállítani egy tömegbunyót mikor rádugrik az ex-könyvtáros. De legalább senki nem firtatja a miértjét vagy higyanját. Megnyugszol kicsit.
+
+Végül jöhet egy kis szakma, gondolod. Próbálod összeszedni, milyen szakmai eseményeken vettél részt az évben. Volt 2-4 A kurzusod az fix, meg egy műhelytagságod is. Huhh de volt egy csomó díjas is.
+
+Hogy nézett ki egyben az éved szakmai oldalról?"
+T_II_11111_113,júniusi vége 3,"Nem kertelsz semmit, elmondod a sztorit. Döbbent csönd követi, 1-1 dühös nézést érzel a homlokodon, ahogyan lesütöd a szemed. A melletted ülő spanod azért minden feltűnést kerülve nyújt egy öklöst. Leöklözöd az asztal alatt, és elmosolyodsz, de rögtön inkább elkezded terelni a szót. Azért ez elég megosztó volt, de ezt tudtad előre.
+
+Végül jöhet egy kis szakma, gondolod. Próbálod összeszedni, milyen szakmai eseményeken vettél részt az évben. Volt 2-4 A kurzusod az fix, meg egy műhelytagságod is. Huhh de volt egy csomó díjas is.
+
+Hogy nézett ki egyben az éved szakmai oldalról?"
+T_II_11111_114,júniusi vége 4,"Bevallasz mindent. Döbbent és feszült csend következik. Alapvetően viszont a legtöbb ember támogatóan néz feléd, hogy őszintén megosztottál magadról nem-pozitív élményeket is, illetve hogy milyen érzéseket váltott ki belőled. Meglepően jól érzeeed magad ettől, nagy kövek estek le most a szívedről.
+
+Végül jöhet egy kis szakma, gondolod. Próbálod összeszedni, milyen szakmai eseményeken vettél részt az évben. Volt 2-4 A kurzusod az fix, meg egy műhelytagságod is. Huhh de volt egy csomó díjas is.
+
+Hogy nézett ki egyben az éved szakmai oldalról?"
+T_II_11111_211,októberi vége 1,"Megnyugodtál kicsit, jól esett ezeket kimondani.
+
+Végül jöhet egy kis szakma, gondolod. Próbálod összeszedni, milyen szakmai eseményeken vettél részt az évben. Volt 2-4 A kurzusod az fix, meg egy műhelytagságod is. Huhh de volt egy csomó díjas is.
+
+Hogy nézett ki egyben az éved szakmai oldalról?"
+T_II_11111_212,októberi vége 2,"Önmarcangolsz, önostorozol, kicsit önfasztszopkodva.
+
+Végül jöhet egy kis szakma, gondolod. Próbálod összeszedni, milyen szakmai eseményeken vettél részt az évben. Volt 2-4 A kurzusod az fix, meg egy műhelytagságod is. Huhh de volt egy csomó díjas is.
+
+Hogy nézett ki egyben az éved szakmai oldalról?"
+T_II_11111_1111,jó szakma,"És ezzel befejezted a felvezetődet. 
+
+Nagyon sok reakció érkezett, kaptál hideget-meleget. Szeretetből, mélyen érzelmileg involváltan, felszínesen visszajelzők mellett akadtak csendkirályok is. De ez benne van, ennek is megvan a maga szépsége. 
+
+Összességében elégedett vagy az önmarciddal. Ma este féktelen italozgatás, kacsongó party, közgáz kupa készülgetés, ábel-kupa készülgetés és az est végén akár még egy székely himnusz éneklő fél óra is beleférhet. 
+
+Elégedetten mész aludni."
+T_II_11111_1112,szar szakma,"És ezzel befejezted a felvezetődet. 
+
+Nagyon sok reakció érkezett, kaptál hideget-meleget. Szeretetből, mélyen érzelmileg involváltan, felszínesen visszajelzők mellett akadtak csendkirályok is. De ez benne van, ennek is megvan a maga szépsége. 
+
+Összességében nem vagy annyira elégedett az önmarciddal. Kissé más képet festettek le a többiek a visszajelzéseikkel, mint vártad. A szakmai elhivatottságodra és alűázatodra esett megjegyzések estek a legrosszabbul. De egyes részueit könnyű volt belátni, stanfordi, harvardi, vagy épp UCLA-n tanító, célzottan nekünk előadó professzorokra nem ráérni azért elég híglevű.
+
+Magadra haragosan mész el aludni."

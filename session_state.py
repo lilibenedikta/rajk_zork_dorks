@@ -1,6 +1,19 @@
 import pandas as pd
+import boto3
 
-edge_data = pd.read_csv("data/RAJK_ZORK_edges.csv").set_index(["FROM", "OPTION_NUM"])
+client = boto3.client(
+    's3',
+    aws_access_key_id = 'AKIASJIEFZIWUUY5K5DG',
+    aws_secret_access_key = '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',
+    region_name = 'us-east-1'
+)
+
+RAJK_ZORK_edges_from_AWS_server = client.get_object(
+    Bucket = 'szovegek',
+    Key = 'RAJK_ZORK_edges.csv'
+)
+edge_data = pd.read_csv(RAJK_ZORK_edges_from_AWS_server['Body']).set_index(["FROM", "OPTION_NUM"])
+
 
 class SessionState:
     def __init__(self) -> None:
@@ -23,3 +36,8 @@ class SessionState:
             self.n_potions += 1
 
         return f"You have {self.n_potions} potions"
+
+
+class Starting_SessionState:
+    def __init__(self) -> None:
+        self.current_state = "T_I_1"
