@@ -84,4 +84,8 @@ def continue_game(n_clicks, selector_value, session_id):
         chapter_3_gomb = {"visibility":"hidden"}
         chapter_4_gomb = {"visibility":"hidden"}
         finish_button_style = {"visibility":"hidden"}
+
+    if sesh.bika_nyuszi >= 50:
+        next_text += "Gecó, az para te nyuszi"
+    
     return next_text, next_radio, submit_button_style, chapter_2_gomb, chapter_3_gomb, chapter_4_gomb, finish_button_style, 
