@@ -31,6 +31,8 @@ layout = html.Div(
         dbc.Button("2. fejezet", id = "chapter_2_gomb", href="/chapter_two_divider"),
         dbc.Button("3. fejezet", id = "chapter_3_gomb", href="/chapter_three_divider"),
         dbc.Button("4. fejezet", id = "chapter_4_gomb", href="/chapter_four_divider"),
+        dcc.Markdown(id="display_user_id", className="user_id_text_topright"),
+        dcc.Markdown(id="most_recent_session_state", className="good_text"),
 ]
 )
 
@@ -48,7 +50,7 @@ layout = html.Div(
     Input("submit_gomb", "n_clicks"),
     [
         State("option_selector", "value"),
-        State("initial_user_id", "value"),
+        State("display_user_id", "children"),
     ],
 )
 def continue_game(n_clicks, selector_value, session_id):
